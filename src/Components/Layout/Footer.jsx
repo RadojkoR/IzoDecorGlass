@@ -6,9 +6,9 @@ import { FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
     <footer className="mainFooter bg-dark fixed-bottom">
-        <div className="container-md py-5">
+        <div className="container-md pt-5">
             <section className="row border-bottom pb-5">
-                <article className="addressContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex">
+                <article className="addressContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-md-4">
                     <div className="footerIconContainer me-4 d-flex justify-content-center align-items-center">
                         <PiMapPinAreaDuotone className="text-light w-50 h-50"/>
                     </div>
@@ -17,7 +17,7 @@ function Footer() {
                         <a className="text-decoration-none text-light" href="#">Adresa ide ovde, Čačak</a>
                     </div>
                 </article>
-                <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex">
+                <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-md-4">
                     <div className="footerIconContainer me-4 d-flex justify-content-center align-items-center">
                         <LuPhoneOutgoing className="text-light w-50 h-50"/>
                     </div>
@@ -26,7 +26,7 @@ function Footer() {
                         <a className="text-decoration-none text-light" href="tel:123456789">123456789</a>
                     </div>
                 </article>
-                <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex">
+                <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-md-4">
                     <div className="footerIconContainer me-4 d-flex justify-content-center align-items-center">
                         <LuPhoneOutgoing className="text-light w-50 h-50"/>
                     </div>
@@ -44,7 +44,13 @@ function Footer() {
                 <FaInstagram  className="fs-1 text-decoration-none text-light"/>
                 </a>                
             </section>
-            
+            <section className="d-flex flex-column flex-sm-row align-items-center justify-content-center py-3">
+             <p className="text-light">Copyright &copy; All Rights Reserved Izo Decor Glass </p> 
+              <p className="text-light">
+                &nbsp; &nbsp;&nbsp;&nbsp;Powered by 
+                <a className="powerdBy text-decoration-none " href="https://www.radoyko.com" target="_blank"> Radojko.com</a>
+                </p> 
+            </section>
 
         </div>
 
