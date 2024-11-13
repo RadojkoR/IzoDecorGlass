@@ -1,7 +1,7 @@
-
 import '../App.css';
 import { Nav } from '../Components/Layout/index';
 import {Home} from "../Pages/index";
+import {Route, Routes} from 'react-router-dom'
 
 function App() {
   
@@ -9,7 +9,12 @@ function App() {
   return (
     <section>
       <Nav />
-      <Home />    
+      <section>
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+        </Routes>       
+      </section>
+          
     </section>
   )
 }
