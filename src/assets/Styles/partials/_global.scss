@@ -1,8 +1,9 @@
+@use "./variables";
 
 
-
-body {
+main {
     background-color: #d8d8d8 !important;
+    color: variables.$primaryTextColor!important;
 }
 
 .homeLogo {
@@ -11,6 +12,8 @@ body {
 h1 {
     font-size: 4rem;
 }
+
+
 
 
 @media (max-width: 992px) {

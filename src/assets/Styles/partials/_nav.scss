@@ -1,0 +1,19 @@
+@use "./variables";
+
+.logoNav {
+    width:250px
+}
+
+.mainNav {
+
+    .navLiItem {
+        font-weight: variables.$fontW600;
+
+        .navLinkItem {
+            transition: all 0.3 ease;
+        }
+        .navLinkItem:hover, .navLinkItem:focus {
+            color: variables.$navHoverColor;
+        }
+    }
+}
