@@ -1,14 +1,16 @@
 
 import '../App.css';
+import { Nav } from '../Components/Layout/index';
 import {Home} from "../Pages/index";
 
 function App() {
   
 
   return (
-    <main>
+    <section>
+      <Nav />
       <Home />    
-    </main>
+    </section>
   )
 }
 

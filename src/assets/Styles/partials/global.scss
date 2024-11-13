@@ -1,0 +1,45 @@
+
+
+
+body {
+    background-color: #d8d8d8 !important;
+}
+
+.homeLogo {
+    width:45rem;
+}
+h1 {
+    font-size: 4rem;
+}
+
+
+@media (max-width: 992px) {
+    .homeLogo {
+            width:35rem;
+    }
+
+    h1 {
+    font-size: 3rem;
+}
+}
+@media (max-width: 768px) {
+    .homeLogo {
+            width:25rem;
+    }
+
+    h1 {
+    font-size: 2rem;
+}
+
+}
+
+@media (max-width: 768px) {
+    .homeLogo {
+            width:17rem;
+    }
+
+    h1 {
+    font-size: 1.5rem;
+}
+
+}
