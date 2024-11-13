@@ -3,7 +3,9 @@
 
 function AboutUs() {
   return (
-    <div>AboutUs</div>
+    <section className="py-5">
+      <h2 className="text-center">O Nama</h2>
+    </section>
   )
 }
 

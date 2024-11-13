@@ -2,6 +2,7 @@ import { PiMapPinAreaDuotone } from "react-icons/pi";
 import { LuPhoneOutgoing } from "react-icons/lu";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
 
 function Footer() {
   return (
@@ -12,7 +13,7 @@ function Footer() {
                     <div className="footerIconContainer me-4 d-flex justify-content-center align-items-center">
                         <PiMapPinAreaDuotone className="text-light w-50 h-50"/>
                     </div>
-                    <div className="addressContentFooter text-light">
+                    <div className="footerContentContainer text-light">
                         <h5 className="mb-3">Adresa</h5>
                         <a className="text-decoration-none text-light" href="#">Adresa ide ovde, Čačak</a>
                     </div>
@@ -21,16 +22,16 @@ function Footer() {
                     <div className="footerIconContainer me-4 d-flex justify-content-center align-items-center">
                         <LuPhoneOutgoing className="text-light w-50 h-50"/>
                     </div>
-                    <div className="addressContentFooter text-light">
+                    <div className="footerContentContainer text-light">
                         <h5 className="mb-3">Telefon</h5>
                         <a className="text-decoration-none text-light" href="tel:123456789">123456789</a>
                     </div>
                 </article>
                 <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-md-4">
                     <div className="footerIconContainer me-4 d-flex justify-content-center align-items-center">
-                        <LuPhoneOutgoing className="text-light w-50 h-50"/>
+                        <MdOutlineEmail className="text-light w-50 h-50"/>
                     </div>
-                    <div className="addressContentFooter text-light">
+                    <div className="footerContentContainer text-light">
                         <h5 className="mb-3">Email</h5>
                         <a className="text-decoration-none text-light" href="mailto:123456789">email@test.com</a>
                     </div>

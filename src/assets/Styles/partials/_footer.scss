@@ -7,6 +7,15 @@
     background-color: variables.$footerIconContainerBgColor;
 }
 
+.footerContentContainer  {
+    a {
+        transition: all 0.2s ease;
+    }
+    a:hover, a:focus {
+        color: variables.$hoverFooterSocialIcon!important;
+    }
+}
+
 .socialMediaIcon {
     width: 3rem;
     height: 3rem;
