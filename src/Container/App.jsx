@@ -1,5 +1,5 @@
 import '../App.css';
-import { Nav } from '../Components/Layout/index';
+import { Footer, Nav } from '../Components/Layout/index';
 import {Home} from "../Pages/index";
 import {Route, Routes} from 'react-router-dom'
 
@@ -14,7 +14,7 @@ function App() {
           <Route path='/' element={<Home />}></Route>
         </Routes>       
       </section>
-          
+      <Footer />
     </section>
   )
 }
