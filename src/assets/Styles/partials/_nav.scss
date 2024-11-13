@@ -5,6 +5,7 @@
 }
 
 .mainNav {
+    z-index: 1000;
 
     .navLiItem {
         font-weight: variables.$fontW600;
@@ -14,6 +15,10 @@
         }
         .navLinkItem:hover, .navLinkItem:focus {
             color: variables.$navHoverColor;
+        }
+        .active {
+            color: variables.$navHoverColor;
+            font-weight: variables.$fontW700;
         }
     }
 }

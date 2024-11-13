@@ -1,6 +1,6 @@
 import '../App.css';
 import { Footer, Nav } from '../Components/Layout/index';
-import {Home} from "../Pages/index";
+import {Home, Kontakt, TipoviStakla, Usluge} from "../Pages/index";
 import {Route, Routes} from 'react-router-dom'
 
 function App() {
@@ -12,6 +12,9 @@ function App() {
       <section>
         <Routes>
           <Route path='/' element={<Home />}></Route>
+          <Route path='/usluge' element={<Usluge />}></Route>
+          <Route path='/tipoviStakla' element={<TipoviStakla />}></Route>
+          <Route path='/kontakt' element={<Kontakt />}></Route>
         </Routes>       
       </section>
       <Footer />

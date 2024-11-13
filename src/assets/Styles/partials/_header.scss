@@ -1,0 +1,18 @@
+@use "../partials/variables";
+
+.headerHome {
+    background-image: url("../Images/headerBgGlass.webp");
+    // background-image: url("../Images/headerImg2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .logoHeader {
+        position: absolute;
+        bottom: 10rem;
+        // top: 10rem;
+        left: 5rem;
+        background-color: #ffffffa8;
+        padding: 1rem 2rem;
+    }
+}
