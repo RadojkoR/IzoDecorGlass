@@ -1,5 +1,19 @@
 @use "./variables";
 
+.homeAboutUs {
+    background-image: url("../Images/paralaxBg.webp");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .paralaxColor {
+            background-color: variables.$secondaryBgColor;
+    }
+    .aboutUsContainer {
+        background-color: variables.$tertiaryBgColor;
+    }
+   
+}
+
 .oNamaHeader {
     color: variables.$secondaryTexColor;
 }
