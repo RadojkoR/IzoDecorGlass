@@ -26,7 +26,10 @@
     .headerUslugeContainer {
         width: 18rem;
         height: 10rem;
-        background-color: #03a0e4ad;
+        background-color: variables.$secondaryBgColor;
+        &:first-child {
+            color: variables.$primaryTextColor!important;
+        }
 
         .headerLink {
             transition: all 0.2s ease;

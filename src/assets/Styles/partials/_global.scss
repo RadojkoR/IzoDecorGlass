@@ -1,5 +1,9 @@
 @use "./variables";
 
+.fontW500 {
+    font-weight: variables.$fontW500;
+}
+
 .fontW600 {
     font-weight: variables.$fontW600;
 }
