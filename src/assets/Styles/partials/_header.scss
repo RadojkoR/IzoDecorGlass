@@ -8,11 +8,32 @@
     background-size: cover;
     position: relative;
     .logoHeader {
-        position: absolute;
-        bottom: 10rem;
-        // top: 10rem;
-        left: 5rem;
+        transform: rotate(-90deg);
+        width: 45rem;
+        // position: absolute;
+        position:relative;
+        // bottom: 10rem;
+        top: 30rem;
+        left: -16rem;
         background-color: #ffffffa8;
         padding: 1rem 2rem;
+    }
+
+    .headerUsluge {
+        // margin-bottom: -2rem;
+    }
+
+    .headerUslugeContainer {
+        width: 18rem;
+        height: 10rem;
+        background-color: #03a0e4ad;
+
+        .headerLink {
+            transition: all 0.2s ease;
+        }
+        .headerLink:hover, .headerLink:focus {
+            color:variables.$primaryTextColor!important;
+            
+        }
     }
 }

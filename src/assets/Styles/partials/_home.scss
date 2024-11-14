@@ -1,0 +1,13 @@
+@use "./variables";
+
+.oNamaHeader {
+    color: variables.$secondaryTexColor;
+}
+
+.aboutUsImgContainer {
+    background-image: url("../Images/aboutUsOrigin.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+}

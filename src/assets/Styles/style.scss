@@ -1,7 +1,8 @@
 @use "./partials/variables";
+@use "./partials/_global.scss";
 @use "./partials/_nav.scss";
 @use "./partials/header";
+@use "./partials/home";
 @use "./partials/_footer.scss";
-@use "./partials/_global.scss";
 
 

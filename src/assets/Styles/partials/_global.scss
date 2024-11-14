@@ -1,5 +1,11 @@
 @use "./variables";
 
+.fontW600 {
+    font-weight: variables.$fontW600;
+}
+.fontW700 {
+    font-weight: variables.$fontW700;
+}
 
 main {
     background-color: #d8d8d8 !important;

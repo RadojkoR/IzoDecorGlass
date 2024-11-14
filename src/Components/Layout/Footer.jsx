@@ -9,7 +9,7 @@ function Footer() {
     <footer className="mainFooter bg-dark">
         <div className="container-md pt-5">
             <section className="row border-bottom pb-5">
-                <article className="addressContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-md-4">
+                <article className="addressContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-4">
                     <div className="footerIconContainer me-4 d-flex justify-content-center align-items-center">
                         <PiMapPinAreaDuotone className="text-light w-50 h-50"/>
                     </div>
@@ -18,7 +18,7 @@ function Footer() {
                         <a className="text-decoration-none text-light" href="#">Adresa ide ovde, Čačak</a>
                     </div>
                 </article>
-                <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-md-4">
+                <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-4">
                     <div className="footerIconContainer me-4 d-flex justify-content-center align-items-center">
                         <LuPhoneOutgoing className="text-light w-50 h-50"/>
                     </div>
@@ -27,7 +27,7 @@ function Footer() {
                         <a className="text-decoration-none text-light" href="tel:123456789">123456789</a>
                     </div>
                 </article>
-                <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-md-4">
+                <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-4">
                     <div className="footerIconContainer me-4 d-flex justify-content-center align-items-center">
                         <MdOutlineEmail className="text-light w-50 h-50"/>
                     </div>
