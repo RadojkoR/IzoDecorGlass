@@ -23,16 +23,94 @@
         width: 18rem;
         height: 10rem;
         background-color: variables.$secondaryBgColor;
-        &:first-child {
-            color: variables.$primaryTextColor!important;
+
+        .headerIcon {
+            font-size: 2.5rem;
         }
 
-        .headerLink {
-            transition: all 0.2s ease;
-        }
-        .headerLink:hover, .headerLink:focus {
-            color:variables.$primaryTextColor!important;
+        // &:first-child {
+        //     color: variables.$primaryTextColor!important;
+        // }
+
+        // .headerLink {
+        //     transition: all 0.2s ease;
+        // }
+        // .headerLink:hover, .headerLink:focus {
+        //     color:variables.$primaryTextColor!important;
             
+        // }
+    }
+}
+
+@media (max-width: 992px) {
+    .headerHome {
+        .logoHeader {
+            transform: rotate(0deg);
+            left: 2rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .headerHome {
+       .headerUsluge {
+         .headerUslugeContainer {
+            width: 100%;
+            height: 5rem;
+            margin-bottom: 0.5rem;
+              
+            .headerIcon {
+                font-size: 1.8rem;
+            }
+        }
+       }
+        .logoHeader {
+            width: 34.5rem;
+            left: 0.5rem;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .headerHome {
+       .headerUslugeContainer {
+        p {
+            margin-top: 0.4rem!important;
+        }
+       }
+        .logoHeader {
+            width: 40rem;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+     .headerHome {
+       
+        .logoHeader {
+            width: 30rem;
+        }
+    }
+}
+
+@media (max-width: 490px) {
+     .headerHome {
+       .headerUslugeContainer {
+        p {
+            margin-top: 0.4rem!important;
+        }
+       }
+        .logoHeader {
+            width: 23rem;
+        }
+    }
+}
+
+@media (max-width: 380px) {
+     .headerHome {
+       
+        .logoHeader {
+            width: 17rem;
         }
     }
 }
