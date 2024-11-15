@@ -6,7 +6,7 @@ import { MdOutlineEmail } from "react-icons/md";
 
 function Footer() {
   return (
-    <footer className="mainFooter bg-dark">
+    <footer className="mainFooter bg-dark mt-5">
         <div className="container-md pt-5">
             <section className="row border-bottom pb-5">
                 <article className="addressContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-4">
