@@ -1,5 +1,6 @@
-import AboutUs from "../Components/HomePage/AboutUs"
-import { Header } from "../Components/Layout"
+import AboutUs from "../Components/HomePage/AboutUs";
+import { Header } from "../Components/Layout";
+import MarqueeImgSlider from "../Components/MarqueeImgSlider/MarqueeImgSlider";
 
 
 
@@ -8,6 +9,7 @@ function Home() {
     <>
       <Header />
       <AboutUs />
+      <MarqueeImgSlider />
     </>
   )
 }

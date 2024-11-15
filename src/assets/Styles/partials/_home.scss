@@ -1,32 +1,81 @@
 @use "./variables";
 
 .homeAboutUs {
-    background-image: url("../Images/paralaxBg.webp");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    .paralaxColor {
-            background-color: variables.$secondaryBgColor;
+  background-image: url("../Images/paralaxBg.webp");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  .paralaxColor {
+    background-color: variables.$secondaryBgColor;
+  }
+  .aboutUsContainer {
+    background-color: variables.$tertiaryBgColor;
+    .izoText {
+      color: variables.$secondaryTexColor;
     }
-    .aboutUsContainer {
-        background-color: variables.$tertiaryBgColor;
-        .izoText {
-            color: variables.$secondaryTexColor;
-        }
-    }
-
-    
-   
+  }
 }
 
 .oNamaHeader {
-    color: variables.$secondaryTexColor;
+  color: variables.$secondaryTexColor;
 }
 
 .aboutUsImgContainer {
-    background-image: url("../Images/aboutUsOrigin.webp");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40rem;
+  background-image: url("../Images/aboutUsOrigin.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40rem;
+}
+
+//MARQUEE IMAGE SLIDER
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.marquee {
+  overflow: hidden;
+  position: relative;
+  height: 30rem;
+  max-width: 1920px;
+  margin: 0 auto;
+  .marqueeContent {
+    display: flex;
+    animation: scroll 50s linear infinite;
+    will-change: transform;
+    width: 200%;
+    height: 100%;
+    gap: 0.5rem;
+    .marqueeItem {
+      width: 100%;
+      height: 100%;
+    //   position: absolute;
+      img {
+        display: block;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+    .marquee {
+        height: 20rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .marquee {
+        height: 15rem;
+    }
+}
+
+@media (max-width: 490px) {
+    .marquee {
+        height: 10rem;
+    }
 }
