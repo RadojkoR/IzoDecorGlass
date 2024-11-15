@@ -53,6 +53,8 @@
 
 @media (max-width: 768px) {
     .headerHome {
+        background-image: url("../Images/headerBgGlassMobileOrigin.webp");
+        background-position: right;
        .headerUsluge {
          .headerUslugeContainer {
             width: 100%;
@@ -106,11 +108,29 @@
     }
 }
 
+@media (max-width: 420px) {
+    .headerHome {
+       
+        .logoHeader {
+            top: 25rem!important;
+        }
+    }
+}
+
 @media (max-width: 380px) {
      .headerHome {
        
         .logoHeader {
-            width: 17rem;
+            top: 18rem!important;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+     .headerHome {
+       
+        .logoHeader {
+            top: 11rem!important;
         }
     }
 }
