@@ -19,10 +19,21 @@
         }
         .active {
             color: variables.$navHoverColor;
-            font-weight: variables.$fontW700;
+            // font-weight: variables.$fontW700;
             background-color: unset!important;
         }
     }
+
+     .dropDownMenu {
+        width: 400px;
+        top: 100%;
+    }
+
+    .dropDown:hover .dropDownMenu, .dropDown:focus .dropDownMenu  {
+        display: block;           
+    }
+
+   
     
 }
 

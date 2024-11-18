@@ -17,18 +17,18 @@ function Nav() {
                         <li className="navLiItem nav-item">
                             <NavLink to="/" end className={({ isActive }) => `navLinkItem nav-link text-uppercase fs-5 ms-lg-4 ${isActive ? "active" : ""}`} aria-current="page">Izo Decor Glass</NavLink>
                         </li>
-                        <li className="navLiItem nav-item dropdown d-flex align-items-center">
+                        <li className="navLiItem dropDown nav-item dropdown d-flex align-items-center">
                             <NavLink
                                 to={"/usluge"}
-                                className="navLinkItem dropDown nav-link text-uppercase fs-5 ms-lg-4 " id="navbarDropdown"
+                                className="navLinkItem nav-link text-uppercase fs-5 ms-lg-4 " id="navbarDropdown"
                                 >Usluge</NavLink>
                             <div className="dropdown-toggle" role="button"
                                 data-bs-auto-close="true"
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"></div>
                             <ul className="dropDownMenu dropdown-menu text-uppercase border-0" aria-labelledby="navbarDropdown">
-                                <li><NavLink to={"usluge/tusKabine"} className="dropdown-item">Tuš Kabine</NavLink></li>
-                                <li><NavLink to={"usluge/stakleneOgrade"} className="dropdown-item" href="#">Staklene ograde</NavLink></li>
+                                <li><NavLink to={"usluge/tusKabine"} className=" nav-link navLinkItem">Tuš Kabine</NavLink></li>
+                                <li><NavLink to={"usluge/stakleneOgrade"} className="nav-link navLinkItem" href="#">Staklene ograde</NavLink></li>
                             </ul>
                         </li>
                         <li className="navLiItem nav-item">
