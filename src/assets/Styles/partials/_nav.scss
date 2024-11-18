@@ -6,6 +6,7 @@
 
 .mainNav {
     z-index: 1000;
+    top: 0;
 
     .navLiItem {
         font-weight: variables.$fontW600;
@@ -19,6 +20,9 @@
         .active {
             color: variables.$navHoverColor;
             font-weight: variables.$fontW700;
+            background-color: unset!important;
         }
     }
+    
 }
+
