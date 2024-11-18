@@ -42,8 +42,7 @@
     }
 }
 
-.uslugeHeader {
-    background-image: url("../Images/uslugeHeader1.webp");
+.secondaryHeader {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -51,13 +50,16 @@
     margin-top: 5rem;
 }
 
+.uslugeHeader {
+    background-image: url("../Images/uslugeHeader1.webp");
+}
+
 .tusKabineHeader {
     background-image: url("../Images/headerTusKabine350.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    height: 40vh!important;
-    margin-top: 5rem;
+}
+
+.stakleneOgradeHeader {
+    background-image: url("../Images/staklenaOgrada300.webp");
 }
 
 @media (max-width: 992px) {

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function SecondaryHeader({bgHeader}) {
   return (
-    <header className={`${bgHeader} vh-100 row`}>
+    <header className={`${bgHeader} secondaryHeader vh-100 row`}>
       <div className="col-lg-2">
       </div>
         

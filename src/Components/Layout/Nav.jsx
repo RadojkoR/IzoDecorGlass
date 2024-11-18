@@ -26,9 +26,9 @@ function Nav() {
                                 data-bs-auto-close="true"
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"></div>
-                            <ul className="dropDownMenu dropdown-menu text-uppercase" aria-labelledby="navbarDropdown">
+                            <ul className="dropDownMenu dropdown-menu text-uppercase border-0" aria-labelledby="navbarDropdown">
                                 <li><NavLink to={"usluge/tusKabine"} className="dropdown-item">Tuš Kabine</NavLink></li>
-                                <li><a className="dropdown-item" href="#">Staklene ograde</a></li>
+                                <li><NavLink to={"usluge/stakleneOgrade"} className="dropdown-item" href="#">Staklene ograde</NavLink></li>
                             </ul>
                         </li>
                         <li className="navLiItem nav-item">
