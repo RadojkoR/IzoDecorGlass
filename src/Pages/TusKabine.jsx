@@ -22,7 +22,7 @@ function TusKabine() {
   return (
     <>
       <SecondaryHeader bgHeader="tusKabineHeader" />
-      <div className="paralaxTusKabine">
+      <div className="paralaxTusKabine my-4">
         <div className="paralaxColor">
           <section className="tusKabineContainer container-md py-5">
             <h2 className="text-center">Tuš Kabine</h2>
