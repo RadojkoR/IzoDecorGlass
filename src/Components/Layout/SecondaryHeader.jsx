@@ -5,8 +5,7 @@ function SecondaryHeader({bgHeader}) {
   return (
     <header className={`${bgHeader} secondaryHeader vh-100 row g-0`}>
       <div className="col-lg-2">
-      </div>
-        
+      </div>       
     </header>
   )
 }
