@@ -7,7 +7,7 @@ import { FaRegSmile } from "react-icons/fa";
 
 function Header() {
   return (
-    <header className="headerHome vh-100 row">
+    <header className="headerHome vh-100 row g-0">
       <div className="col-lg-2">
         <img src={HeaderLogo} className="logoHeader" alt="Izo Decor Glass Logo" />
       </div>

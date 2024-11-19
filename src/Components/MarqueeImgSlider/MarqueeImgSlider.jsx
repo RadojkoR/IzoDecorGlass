@@ -1,27 +1,41 @@
-import ImgOne from "../../assets/Images/shower1unsplash.webp";
-import ImgTwo from "../../assets/Images/glass2Railingspexels.webp";
-import ImgThree from "../../assets/Images/glass1Railingspexels.webp";
-import ImgFour from "../../assets/Images/glassWallunsplash.webp";
+import PropTypes from "prop-types";
 
-function MarqueeImgSlider() {
+function MarqueeImgSlider({images, customClass}) {
+    console.log();
+    
+
     return (
-        <section className="marquee">
+        <section className={`marquee ${customClass}`}>
             <div className="marqueeFilterContainer my-5"></div>
             <article className="marqueeContent my-5">
-                <div className="marqueeItem"><img src={ImgOne} alt="Image 1" /></div>
-                <div className="marqueeItem"><img src={ImgTwo} alt="Image 2" /></div>
-                <div className="marqueeItem"><img src={ImgThree} alt="Image 3" /></div>
-                <div className="marqueeItem"><img src={ImgFour} alt="Image 4" /></div>
+                {
+                    images.map((image, index) => (
+                        <div key={index} className="marqueeItem"><img src={image.src} alt={image.alt} /></div>
+                    ))
+                }               
 
                 {/* Duplični set slika za beskonačnu animaciju */}
-                <div className="marqueeItem"><img src={ImgOne} alt="Image 1" /></div>
-                <div className="marqueeItem"><img src={ImgTwo} alt="Image 2" /></div>
-                <div className="marqueeItem"><img src={ImgThree} alt="Image 3" /></div>
-                <div className="marqueeItem"><img src={ImgFour} alt="Image 4" /></div>
+                 {
+                    images.map((image, index) => (
+                        <div key={index} className="marqueeItem"><img src={image.src} alt="Image 1" /></div>
+                    ))
+                }
+               
             </article>
 
         </section>
     )
 }
+
+// Dodavanje proptypes validacije
+MarqueeImgSlider.propTypes = {
+    images: PropTypes.arrayOf(
+        PropTypes.shape({
+            src: PropTypes.string.isRequired,
+            alt: PropTypes.string.isRequired,
+        })
+    ).isRequired,
+    customClass: PropTypes.string,
+};
 
 export default MarqueeImgSlider

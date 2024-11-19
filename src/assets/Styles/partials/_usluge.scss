@@ -1,0 +1,28 @@
+@use "./_variables.scss";
+
+// USLUGE
+
+
+
+// TUS KABINE
+.paralaxTusKabine {
+    background-image: url("../Images/paralaxBgShower.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .paralaxColor {
+    background-color: variables.$secondaryBgColor;
+
+    .tusKabineContainer {
+        background-color: variables.$tertiaryBgColor;
+        h3 {
+            color: variables.$secondaryTexColor
+        }
+    }
+  }
+}
+
+.showerMarquee {
+    height: 15rem;
+}
