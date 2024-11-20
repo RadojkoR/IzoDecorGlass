@@ -30,12 +30,21 @@
     }
 }
 
+// SECONDARY HEADER
 .secondaryHeader {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     height: 40vh!important;
     margin-top: 5rem;
+    z-index: 1;
+    .secondaryHeaderTxtcontainer {
+        width: 40rem;
+        right: 3rem;
+        bottom: -3rem;
+        background-color: variables.$secondaryBgColor;
+        color: variables.$tertiaryTxtColor;
+    }
 }
 
 .uslugeHeader {

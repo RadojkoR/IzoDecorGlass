@@ -13,16 +13,54 @@
     background-attachment: fixed;
     .paralaxColor {
     background-color: variables.$secondaryBgColor;
-
-    .tusKabineContainer {
-        background-color: variables.$tertiaryBgColor;
-        h3 {
-            color: variables.$secondaryTexColor
-        }
-    }
   }
 }
+
+.tusKabineHeaderTxt {
+    width: 40rem;
+    right: -5rem;
+    top: -12rem;
+    background-color: variables.$secondaryBgColor;
+    color: variables.$tertiaryTxtColor;
+}
+
+.tusKabineContainer {
+        background-color: variables.$tertiaryBgColor;
+        h3 {
+             color: variables.$secondaryTexColor
+        }
+        .tusKabineTxtContainer {
+            img {
+                width: 20rem;
+            }
+        }
+    }
 
 .showerMarquee {
     height: 15rem;
 }
+
+// STAKLENE OGRADE
+.stakleneOgradeContainer {
+     h3 {
+            color: variables.$secondaryTexColor
+        }
+
+        .stakleneOgradeTxtContainer {
+            img {
+                width: 20rem;
+            }
+        }
+}
+
+
+// @media (max-width: 1500px) {
+//     // STAKLENE OGRADE
+// .stakleneOgradeHeaderTxt {
+//     right: -3rem;
+//     top: -14rem;
+//     background-color: variables.$secondaryBgColor;
+//     color: variables.$tertiaryTxtColor;
+   
+// }
+// }

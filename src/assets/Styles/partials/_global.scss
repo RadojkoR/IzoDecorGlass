@@ -1,5 +1,6 @@
 @use "./variables";
 
+
 .fontW500 {
     font-weight: variables.$fontW500;
 }
@@ -14,6 +15,7 @@
 main {
     background-color: variables.$primaryBgColor !important;
     color: variables.$primaryTextColor!important;
+    font-family: variables.$primaryFont;
 }
 
 .homeLogo {

@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 // FONT WEIGHT
 $fontW500: 500;
@@ -8,8 +8,9 @@ $fontW800: 800;
 
 
 // COLORS
-$primaryTextColor: #393939;
+$primaryTextColor: #484848;
 $secondaryTexColor: #026591;
+$tertiaryTxtColor: #f9f9f9;
 
 $primaryBgColor: #f9f9f9;
 $secondaryBgColor: #53cee697;
@@ -20,3 +21,6 @@ $navHoverColor: #0271A2;
 $footerIconContainerBgColor: #2a2f35;
 $hoverFooterSocialIcon: #03A0E4;
 $powerByColor: #fb8122;
+
+//FONT
+$primaryFont: 'Roboto', sans-serif;
