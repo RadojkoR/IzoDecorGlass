@@ -14,7 +14,7 @@ function Footer() {
                         <PiMapPinAreaDuotone className="text-light w-50 h-50"/>
                     </div>
                     <div className="footerContentContainer text-light">
-                        <h5 className="mb-3">Adresa</h5>
+                        <h4 className="mb-3">Adresa</h4>
                         <a className="text-decoration-none text-light" href="#">Adresa ide ovde, Čačak</a>
                     </div>
                 </article>
@@ -23,7 +23,7 @@ function Footer() {
                         <LuPhoneOutgoing className="text-light w-50 h-50"/>
                     </div>
                     <div className="footerContentContainer text-light">
-                        <h5 className="mb-3">Telefon</h5>
+                        <h4 className="mb-3">Telefon</h4>
                         <a className="text-decoration-none text-light" href="tel:123456789">123456789</a>
                     </div>
                 </article>
@@ -32,17 +32,17 @@ function Footer() {
                         <MdOutlineEmail className="text-light w-50 h-50"/>
                     </div>
                     <div className="footerContentContainer text-light">
-                        <h5 className="mb-3">Email</h5>
+                        <h4 className="mb-3">Email</h4>
                         <a className="text-decoration-none text-light" href="mailto:123456789">email@test.com</a>
                     </div>
                 </article>
             </section>
             <section className="d-flex justify-content-center border-bottom py-5 row">
                 <a href="https://www.facebook.com/" className="socialMediaIcon border d-flex align-items-center me-2" target="_blank">
-                <FaFacebookF className="fs-2 text-decoration-none text-light"/>
+                <FaFacebookF className="fs-2 text-decoration-none text-light" alt="Facebook icon"/>
                 </a>
                 <a href="https://www.instagram.com/" className="socialMediaIcon border d-flex align-items-center ms-2" target="_blank">
-                <FaInstagram  className="fs-1 text-decoration-none text-light"/>
+                <FaInstagram  className="fs-1 text-decoration-none text-light" alt="Instagram Icon"/>
                 </a>                
             </section>
             <section className="d-flex flex-column flex-sm-row align-items-center justify-content-center py-3">
