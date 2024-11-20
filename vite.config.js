@@ -13,5 +13,6 @@ export default defineConfig({
         includePath: ["./node_modules"]
       }
     }
-  }
+  },
+  base: '/',
 })
