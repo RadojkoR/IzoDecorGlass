@@ -3,7 +3,7 @@ import logo from "../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp";
 
 function StakleneOgrade() {
   const stakleneOgradeHeaderTxt = [
-    {headingEl: "StakleneOgrade", para: "Spoj elegancije i funkcionalnosti"}
+    {headingEl: "Staklene Ograde", para: "Spoj elegancije i funkcionalnosti"}
   ]
   return (
     <>
