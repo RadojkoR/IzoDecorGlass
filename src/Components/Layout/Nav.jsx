@@ -25,7 +25,9 @@ function Nav() {
                             <div className="dropdown-toggle" role="button"
                                 data-bs-auto-close="true"
                                 data-bs-toggle="dropdown"
-                                aria-expanded="false"></div>
+                                aria-expanded="false"
+                                aria-label="Open menu">
+                            </div>
                             <ul className="dropDownMenu dropdown-menu text-uppercase border-0" aria-labelledby="navbarDropdown">
                                 <li><NavLink to={"usluge/tusKabine"} className=" nav-link navLinkItem">Tuš Kabine</NavLink></li>
                                 <li><NavLink to={"usluge/stakleneOgrade"} className="nav-link navLinkItem" href="#">Staklene ograde</NavLink></li>
