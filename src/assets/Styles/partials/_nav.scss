@@ -32,8 +32,12 @@
     .dropDown:hover .dropDownMenu, .dropDown:focus .dropDownMenu  {
         display: block;           
     }
+}
 
-   
-    
+@media (max-width: 992px) {
+    .dropDown:hover .dropDownMenu, 
+    .dropDown:focus .dropDownMenu {
+        display: none; 
+    }
 }
 

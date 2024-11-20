@@ -1,12 +1,29 @@
 @use "./variables";
 
-
-.tipoviStaklaParalax {
+.paralax {
     width: 100%;
     height: 20rem;
-    background-image: url("../Images/paralaxClearGlassFull.webp");
     background-position: right top;
     background-repeat: no-repeat;
-    // background-size: cover;
     background-attachment: fixed;
+    background-size: cover;
+}
+.paralaxOne {
+    background-image: url("../Images/paralaxClearGlassFull.webp");
+}
+
+.paralaxTwo {
+    background-image: url("../Images/paralaxTwo.webp");
+}
+
+.paralaxThree {
+    background-image: url("../Images/paralaxThree.webp");
+}
+
+.paralaxFour {
+    background-image: url("../Images/paralaxFour1.webp");
+}
+.tipStaklaImg {
+    width: 20rem;
+    margin-top: -12rem;
 }
