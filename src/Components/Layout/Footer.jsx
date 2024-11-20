@@ -38,10 +38,10 @@ function Footer() {
                 </article>
             </section>
             <section className="d-flex justify-content-center border-bottom py-5 row">
-                <a href="https://www.facebook.com/" className="socialMediaIcon border d-flex align-items-center me-2" target="_blank">
+                <a href="https://www.facebook.com/" className="socialMediaIcon border d-flex align-items-center me-2" target="_blank" aria-label="Facebook">
                 <FaFacebookF className="fs-2 text-decoration-none text-light" alt="Facebook icon"/>
                 </a>
-                <a href="https://www.instagram.com/" className="socialMediaIcon border d-flex align-items-center ms-2" target="_blank">
+                <a href="https://www.instagram.com/" className="socialMediaIcon border d-flex align-items-center ms-2" target="_blank" aria-label="Instagram">
                 <FaInstagram  className="fs-1 text-decoration-none text-light" alt="Instagram Icon"/>
                 </a>                
             </section>
