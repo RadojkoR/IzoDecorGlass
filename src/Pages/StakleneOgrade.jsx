@@ -11,7 +11,7 @@ function StakleneOgrade() {
 
       <section className='stakleneOgradeContainer py-5 container-md my-5 border-2 border-bottom'>
         <article className='stakleneOgradeTxtContainer d-flex flex-column'>
-          <h3 className='mt-5 mb-4'>Staklene ograde – Spoj elegancije i funkcionalnosti</h3>
+          <h2 className='mt-5 mb-4'>Staklene ograde – Spoj elegancije i funkcionalnosti</h2>
           <p className='fs-5 px-md-3'>Staklene ograde predstavljaju savremeno i estetski privlačno rešenje koje prostoru daje osećaj prostranosti i luksuza. Bilo da se koriste za unutrašnje stepenice, balkone, terase ili spoljašnje prostore, staklene ograde su idealan izbor za sve koji žele kombinaciju modernog dizajna i sigurnosti.</p>
 
           <p className='fs-5 px-md-3'>Ono što ih čini posebnim jeste njihov minimalistički izgled koji se savršeno uklapa u svaki stil uređenja – od klasičnog do potpuno modernog. Transparentnost stakla omogućava više prirodne svetlosti, što dodatno doprinosi osećaju otvorenosti i topline u prostoru.</p>

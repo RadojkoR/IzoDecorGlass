@@ -32,7 +32,7 @@ function TusKabine() {
       {/* <div className="paralaxTusKabine my-4">
         <div className="paralaxColor"> */}
           <section className="tusKabineContainer container-md py-5 position-relative my-5 border-2 border-bottom">
-            <h3 className="mt-5 mb-4">Tuš Kabine &#8213; Spoj Funkcionalnosti i estetike</h3>
+            <h2 className="mt-5 mb-4">Tuš Kabine &#8213; Spoj Funkcionalnosti i estetike</h2>
             <article className="tusKabineTxtContainer d-flex flex-column">
               <p className="fs-5 px-md-3">Tuš kabine predstavljaju savršen način da prilagodite svaki detalj vašeg kupatila, stvarajući prostor za opuštanje i uživanje. Bez obzira na dimenzije ili specifičnosti prostora, naši stručnjaci su tu da pronađu najbolje rešenje koje u potpunosti odgovara vašim željama i potrebama.</p>
               <p className="fs-5 px-md-3">Ono što naše tuš kabine čini posebnim jeste mogućnost potpune personalizacije – od oblika i veličine, do izbora vrste stakla. Da li preferirate elegantne kvadratne linije ili zakrivljene ivice? Da li je vaš izbor klasično providno, moderno matirano ili luksuzno obojeno staklo? Sve ove opcije su vam na raspolaganju.</p>
