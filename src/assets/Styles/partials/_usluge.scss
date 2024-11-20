@@ -1,7 +1,33 @@
 @use "./_variables.scss";
 
 // USLUGE
+.uslugeContainerOne {
+    margin-top: 15rem;
+}
 
+.uslugeContainer {
+    margin-top: 3rem;
+}
+
+.uslugeContentContainer {
+    .uslugeImgContainer {
+        width: 20rem;
+        margin-top: -12rem;
+    }
+}
+
+.uslugePartalax {
+    width: 100%;
+    height: 20rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ .uslugeParalaxOne {
+    background-image: url("../Images/paralaxStaklenaOgrada.webp");
+ }
 
 
 // TUS KABINE
@@ -11,9 +37,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
     .paralaxColor {
-    background-color: variables.$secondaryBgColor;
-  }
+        background-color: variables.$secondaryBgColor;
+    }
 }
 
 .tusKabineHeaderTxt {
@@ -25,16 +52,18 @@
 }
 
 .tusKabineContainer {
-        background-color: variables.$tertiaryBgColor;
-        h3 {
-             color: variables.$secondaryTexColor
-        }
-        .tusKabineTxtContainer {
-            img {
-                width: 20rem;
-            }
+    background-color: variables.$tertiaryBgColor;
+
+    h3 {
+        color: variables.$secondaryTexColor
+    }
+
+    .tusKabineTxtContainer {
+        img {
+            width: 20rem;
         }
     }
+}
 
 .showerMarquee {
     height: 15rem;
@@ -42,25 +71,25 @@
 
 // STAKLENE OGRADE
 .stakleneOgradeContainer {
-     h3 {
-            color: variables.$secondaryTexColor
-        }
+    h3 {
+        color: variables.$secondaryTexColor
+    }
 
-        .stakleneOgradeTxtContainer {
-            img {
-                width: 20rem;
-            }
+    .stakleneOgradeTxtContainer {
+        img {
+            width: 20rem;
         }
+    }
 }
 
 
-// @media (max-width: 1500px) {
-//     // STAKLENE OGRADE
-// .stakleneOgradeHeaderTxt {
-//     right: -3rem;
-//     top: -14rem;
-//     background-color: variables.$secondaryBgColor;
-//     color: variables.$tertiaryTxtColor;
-   
-// }
-// }
+@media (max-width: 992px) {
+
+    // USLUGE
+    .uslugeContentContainer {
+        .uslugeImgContainer {
+            width: 20rem;
+            margin-top: 2rem;
+        }
+    }
+}
