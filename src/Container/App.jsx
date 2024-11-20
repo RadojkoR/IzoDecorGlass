@@ -3,12 +3,8 @@ import { Footer, Nav } from '../Components/Layout/index';
 import {Home, Kontakt, TipoviStakla, TusKabine, Usluge} from "../Pages/index";
 import {Route, Routes} from 'react-router-dom'
 import StakleneOgrade from '../Pages/StakleneOgrade';
-import { useEffect } from 'react';
 
 function App() {
-  useEffect(() => {
-    document.documentElement.setAttribute('lang', 'sr');
-  }, []);
 
   return (
     <section>
