@@ -4,8 +4,20 @@ import {Home, Kontakt, TipoviStakla, TusKabine, Usluge} from "../Pages/index";
 import {Route, Routes} from 'react-router-dom'
 import StakleneOgrade from '../Pages/StakleneOgrade';
 
-function App() {
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
+function App() {
+const location = useLocation();
+
+  // useEffect za dinamičko postavljanje lang atributa
+  useEffect(() => {
+    if (location.pathname.startsWith('/en')) {
+      document.documentElement.setAttribute('lang', 'en');
+    } else {
+      document.documentElement.setAttribute('lang', 'sr');
+    }
+  }, [location]);
   return (
     <section>
       <Nav />
