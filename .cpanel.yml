@@ -1,0 +1,4 @@
+deployment:
+  type: "git"
+  branch: "main" 
+  dir: "/home/izodecor/public_html"  
