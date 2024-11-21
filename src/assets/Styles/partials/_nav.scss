@@ -1,7 +1,7 @@
 @use "./variables";
 
 .logoNav {
-    width:250px
+    width: 250px
 }
 
 .mainNav {
@@ -14,38 +14,61 @@
         .navLinkItem {
             transition: all 0.3 ease;
         }
-        .navLinkItem:hover, .navLinkItem:focus {
+
+        .navLinkItem:hover,
+        .navLinkItem:focus {
             color: variables.$navHoverColor;
         }
+
         .active {
             color: variables.$navHoverColor;
             // font-weight: variables.$fontW700;
-            background-color: unset!important;
+            background-color: unset !important;
         }
     }
 
-    .dropDown:hover .dropDownMenu, 
-    .dropDown:focus .dropDownMenu {
-        opacity: 1;
-        height: 10rem;
-        transition: all 0.3s ease;
-    }
+    // .dropDown:hover .dropDownMenu, 
+    // .dropDown:focus .dropDownMenu {
+    //     opacity: 1;
+    //     height: 10rem;
+    //     transition: all 0.3s ease;
+    // }
 
-     .dropDownMenu {
-        width: 18rem;
+    .dropDownMenu {
+        min-width: 12rem;
         height: 0;
-        top: 100%;
-        background-color: #FFF;
+        top: 2.5rem;
+        left: 8rem;
         opacity: 0;
         transition: all 0.3s ease;
+        background-color: variables.$tertiaryTxtColor !important;
+        // border: 1px solid variables.$primaryColor;
+        box-shadow: 3px 3px 8px;
     }
 
-   
+
 }
+
+@media (min-width: 993px) {
+    .mainNav {
+        .dropDown:hover .dropDownMenu {
+            height: auto;
+            opacity: 1;
+        }
+    }
+}
+
 
 @media (max-width: 992px) {
-   .dropDownMenu {
-    left: 10rem;
-   }
-}
+    .mainNav {
+        .dropDownMenu {
+            left: 10rem;
+            top: 1rem !important;
+        }
+    }
 
+    .dropDown.open .dropDownMenu {
+        height: auto;
+        opacity: 1;
+    }
+}
