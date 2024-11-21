@@ -5,7 +5,8 @@ import { useState, useEffect } from "react";
 
 function Nav() {
     const [isDropDownOpen, setIsDropdownOpen]= useState(false);
-
+    // const navBar = document.getElementById("navbarNav")
+    const [isMenuOpen, setIsMenuOpen] = useState(false); 
     const handleDropdownToggle = () => {
         setIsDropdownOpen(prevState => !prevState);
     }
@@ -15,14 +16,29 @@ function Nav() {
             setIsDropdownOpen(false)
         };
     }
-
+    
+     const handleClickOutHamburger = (e) => {
+        if(!e.target.closest(".navbar-toggler")) {
+            console.log("you click otside hamburger");
+            // navBar.classList.remove("show")
+            setIsMenuOpen(false);
+        };
+    }
       useEffect(() => {
         document.addEventListener("click", handleClickOutside);
+        document.addEventListener("click", handleClickOutHamburger);
 
         return () => {
             document.removeEventListener("click", handleClickOutside);
+            document.removeEventListener("click", handleClickOutHamburger);
         };
     }, []);
+
+   
+ const toggleMenu = () => {
+        setIsMenuOpen(prevState => !prevState);
+    };
+
 
     return (
         <nav className="mainNav navbar navbar-expand-lg navbar-light bg-light position-fixed w-100">
@@ -30,10 +46,20 @@ function Nav() {
                 <NavLink to="/" className="logoNav navbar-brand py-3 px-2 me-auto">
                     <img src={logo} className="w-100" alt="Izo Decor Glass Logo" />
                 </NavLink>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-bs-auto-close="true">
+                <button 
+                className="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded={isMenuOpen ? "true" : "false"}
+                aria-label="Toggle navigation" 
+                data-bs-auto-close="true"
+                onClick={toggleMenu}
+                >
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
+                <div className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`} id="navbarNav">
                     <ul className="navbar-nav mx-auto">
                         <li className="navLiItem nav-item">
                             <NavLink to="/" end className={({ isActive }) => `navLinkItem nav-link text-uppercase fs-5 ms-lg-4 ${isActive ? "active" : ""}`} aria-current="page">Izo Decor Glass</NavLink>
