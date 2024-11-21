@@ -24,20 +24,28 @@
         }
     }
 
-     .dropDownMenu {
-        width: 400px;
-        top: 100%;
+    .dropDown:hover .dropDownMenu, 
+    .dropDown:focus .dropDownMenu {
+        opacity: 1;
+        height: 10rem;
+        transition: all 0.3s ease;
     }
 
-    .dropDown:hover .dropDownMenu, .dropDown:focus .dropDownMenu  {
-        display: block;           
+     .dropDownMenu {
+        width: 18rem;
+        height: 0;
+        top: 100%;
+        background-color: #FFF;
+        opacity: 0;
+        transition: all 0.3s ease;
     }
+
+   
 }
 
 @media (max-width: 992px) {
-    .dropDown:hover .dropDownMenu, 
-    .dropDown:focus .dropDownMenu {
-        display: none; 
-    }
+   .dropDownMenu {
+    left: 10rem;
+   }
 }
 

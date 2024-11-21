@@ -17,20 +17,20 @@ function Nav() {
                         <li className="navLiItem nav-item">
                             <NavLink to="/" end className={({ isActive }) => `navLinkItem nav-link text-uppercase fs-5 ms-lg-4 ${isActive ? "active" : ""}`} aria-current="page">Izo Decor Glass</NavLink>
                         </li>
-                        <li className="navLiItem dropDown nav-item dropdown d-flex align-items-center">
+                        <li className="navLiItem dropDown nav-item d-flex align-items-center position-relative">
                             <NavLink
                                 to={"/usluge"}
                                 className="navLinkItem nav-link text-uppercase fs-5 ms-lg-4 " id="navbarDropdown"
                                 >Usluge</NavLink>
-                            <div className="dropdown-toggle" role="button"
+                            {/* <div className="dropdown-toggle" role="button"
                                 data-bs-auto-close="true"
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                                 aria-label="Open menu">
-                            </div>
-                            <ul className="dropDownMenu dropdown-menu text-uppercase border-0" aria-labelledby="navbarDropdown">
-                                <li><NavLink to={"usluge/tusKabine"} className=" nav-link navLinkItem">Tuš Kabine</NavLink></li>
-                                <li><NavLink to={"usluge/stakleneOgrade"} className="nav-link navLinkItem" href="#">Staklene ograde</NavLink></li>
+                            </div> */}
+                            <ul className="dropDownMenu bg-light text-uppercase border-0 position-absolute pb-3" aria-labelledby="navbarDropdown">
+                                <li className="list-group-item"><NavLink to={"usluge/tusKabine"} className=" nav-link navLinkItem">Tuš Kabine</NavLink></li>
+                                <li className="list-group-item"><NavLink to={"usluge/stakleneOgrade"} className="nav-link navLinkItem">Staklene ograde</NavLink></li>
                             </ul>
                         </li>
                         <li className="navLiItem nav-item">
