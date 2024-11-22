@@ -93,7 +93,7 @@
         //     left: 2rem;
         // }
 
-         .logoHeader {
+         .logoHeader::before {
             content: url("../Images/Logo/IZO-DECOR-GLASS-Logo-Medium.webp");
             // left: 0.5rem;
         }
@@ -107,7 +107,7 @@
         //     left: 2rem;
         // }
 
-         .logoHeader {
+         .logoHeader::before {
             content: url("../Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp");
             // left: 0.5rem;
         }
