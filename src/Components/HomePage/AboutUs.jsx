@@ -5,7 +5,7 @@ function AboutUs() {
   return (
     <section className="homeAboutUs">
       <div className="paralaxColor">
-        <div className="aboutUsContainer container py-5 row m-auto">
+        <div className="aboutUsContainer container-md py-5 row m-auto">
           <h2 className="text-center mb-5 fs-1 izoText fontW700 pb-5">O Nama</h2>
           <article className="col-lg-7 col-12 p-0">
             <h3 className="oNamaHeader mb-4 px-md-3">Izo Decor Glass</h3>
