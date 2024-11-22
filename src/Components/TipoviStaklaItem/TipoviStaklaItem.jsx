@@ -8,7 +8,7 @@ function TipoviStaklaItem({title, description, img, paralaxClass}) {
     <section className='tipoviStaklaContainer pb-4 container-md my-5'>
         <h2>{title}</h2>
         <article className="tipoviStakla row mt-5">
-          <div className="col-md-8">
+          <div className="col-lg-8">
             <p className="fs-5 px-md-3">{description}</p>
           </div>
           <div className="tipStaklaImg col-md-4">

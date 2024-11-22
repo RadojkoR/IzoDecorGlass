@@ -27,3 +27,10 @@
     width: 20rem;
     margin-top: -12rem;
 }
+
+@media (max-width: 992px) {
+    .tipStaklaImg {
+    margin-top: 0rem;
+    margin: 1rem auto;
+}
+}
