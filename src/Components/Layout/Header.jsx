@@ -1,4 +1,4 @@
-import HeaderLogo from "../../assets/Images/Logo/IZO-DECOR-GLASS-Logo-large.webp";
+import HeaderLogo from "../../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Large.webp";
 // import { MdOutlinePriceChange } from "react-icons/md";
 // import { VscTools } from "react-icons/vsc";
 // import { FaRegSmile } from "react-icons/fa";
