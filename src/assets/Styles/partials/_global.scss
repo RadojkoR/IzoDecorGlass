@@ -12,6 +12,10 @@
     font-weight: variables.$fontW700;
 }
 
+.izoText {
+      color: variables.$secondaryTexColor;
+    }
+
 main {
     background-color: variables.$primaryBgColor !important;
     color: variables.$primaryTextColor!important;

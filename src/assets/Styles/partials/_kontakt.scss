@@ -1,0 +1,23 @@
+@use "../partials/variables";
+
+.kontaktContainer {
+    margin-top: 5rem!important;
+    .kontaktLogo {
+        width: 10rem;
+    }
+}
+
+ .kontaktIconContainer {
+    width: 6rem!important;
+    height: 6rem!important;
+}
+
+.kontaktContentContainer {
+    a {
+       color: variables.$secondaryTexColor;
+       transition: all 0.3s ease;
+        &:hover, &:focus {
+            color: variables.$primaryTextColor;
+        }
+    }
+}
