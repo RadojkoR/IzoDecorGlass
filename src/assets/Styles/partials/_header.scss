@@ -26,6 +26,7 @@
         width: 40rem;
         margin-left: auto;
         margin-top: 30rem;
+
         // outline: 1px solid black;
         // box-shadow: 3px 3px 8px;
         // color:  variables.$tertiaryTxtColor!important;
@@ -92,11 +93,23 @@
             width: 35rem;
             height: 17rem;
             margin-top: 28rem;
-             h1 {
+
+            h1 {
                 font-size: 3.4rem;
             }
         }
     }
+
+    // SECONDARY HEADER
+    .secondaryHeader {
+        .secondaryHeaderTxtcontainer {
+            h1 {
+                font-size: 3.5rem;
+            }
+        }
+    }
+
+
 }
 
 @media (max-width: 768px) {
@@ -124,11 +137,30 @@
         .headerSlogan {
             width: 29rem;
             height: 15rem;
+
             h1 {
                 font-size: 2.9rem;
             }
+
             h2 {
-                margin-left: 2rem!important;
+                margin-left: 2rem !important;
+            }
+        }
+    }
+
+    // SECONDARY HEADER
+    .secondaryHeader {
+        .secondaryHeaderTxtcontainer {
+            width: 30rem;
+            right: 0rem;
+
+            // bottom: -3rem;
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 2rem;
             }
         }
     }
@@ -146,15 +178,34 @@
             width: 30rem;
             left: -11rem;
         }
-        
-         .headerSlogan {
+
+        .headerSlogan {
             width: 23.8rem;
             height: 14rem;
+
             h1 {
                 font-size: 2.3rem;
             }
+
             h2 {
                 font-size: 1.4rem;
+            }
+        }
+    }
+
+    // SECONDARY HEADER
+    .secondaryHeader {
+        .secondaryHeaderTxtcontainer {
+            width: 28rem;
+            right: 0rem;
+
+            // bottom: -3rem;
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 2rem;
             }
         }
     }
@@ -176,11 +227,29 @@
         .headerSlogan {
             width: 20.7rem;
             height: 13rem;
+
             h1 {
                 font-size: 2rem;
             }
+
             h2 {
                 font-size: 1.2rem;
+            }
+        }
+    }
+    // SECONDARY HEADER
+    .secondaryHeader {
+        .secondaryHeaderTxtcontainer {
+            width: 25rem;
+            right: 0rem;
+
+            // bottom: -3rem;
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.5rem!important;
             }
         }
     }
@@ -189,18 +258,36 @@
 @media (max-width: 420px) {
     .headerHome {
 
-       .logoHeader {
+        .logoHeader {
             width: 24rem;
             left: -9rem;
         }
 
         .headerSlogan {
             width: 18.7rem;
+
             h1 {
                 font-size: 1.8rem;
             }
+
             h2 {
                 font-size: 1rem;
+            }
+        }
+    }
+     // SECONDARY HEADER
+    .secondaryHeader {
+        .secondaryHeaderTxtcontainer {
+            width: 23rem;
+            right: 0rem;
+
+            // bottom: -3rem;
+            h1 {
+                font-size: 2.3rem;
+            }
+
+            p {
+                font-size: 1.3rem!important;
             }
         }
     }
@@ -215,16 +302,34 @@
             top: 18rem;
         }
 
-         .headerSlogan {
+        .headerSlogan {
             width: 17rem;
+
             h1 {
                 font-size: 1.8rem;
             }
+
             h2 {
                 font-size: 1rem;
             }
         }
 
+    }
+     // SECONDARY HEADER
+    .secondaryHeader {
+        .secondaryHeaderTxtcontainer {
+            width: 19rem;
+            right: 0rem;
+
+            // bottom: -3rem;
+            h1 {
+                font-size: 2.1rem!important;
+            }
+
+            p {
+                font-size: 1.1rem!important;
+            }
+        }
     }
 }
 
@@ -234,6 +339,23 @@
         .logoHeader {
             // top: 11rem !important;
             width: 20rem;
+        }
+    }
+
+     // SECONDARY HEADER
+    .secondaryHeader {
+        .secondaryHeaderTxtcontainer {
+            width: 17rem;
+            right: 0rem;
+
+            // bottom: -3rem;
+            h1 {
+                font-size: 2.1rem!important;
+            }
+
+            p {
+                font-size: 1.1rem!important;
+            }
         }
     }
 }
