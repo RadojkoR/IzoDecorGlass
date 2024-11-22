@@ -12,8 +12,8 @@ function Header() {
         <img src={HeaderLogo} className="logoHeader" alt="Izo Decor Glass Logo"/>
       </section>
       <section className="headerSlogan d-flex flex-column col-lg-10">
-        <h1 className="py-3 mt-4 me-3 text-center border-5 border-end fontW700 text-uppercase">Izo Decor Glass</h1>
-        <h2 className="py-4 ps-4 ms-5 border-5 border-start fontW600 text-uppercase">Vaš stručnjak za staklo</h2>
+        <h1 className="py-3 mt-4 me-3 text-center border-5 border-end fontW700">IZO DECOR GLASS</h1>
+        <h2 className="py-4 ps-4 ms-5 border-5 border-start fontW600 ">Vaš stručnjak za staklo</h2>
       </section>
       {/* <div className="headerUsluge col-lg-10 d-flex flex-column flex-md-row justify-content-end align-items-end p-0 mb-5">
         <div className="headerUslugeContainer me-md-2 d-flex flex-column justify-content-center align-items-center">
