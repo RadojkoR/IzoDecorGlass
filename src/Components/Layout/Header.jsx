@@ -1,4 +1,7 @@
 import HeaderLogo from "../../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Large.webp";
+import HeaderLogoMd from "../../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Medium.webp";
+import HeaderLogoSm from "../../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp";
+import HeaderLogoExSm from "../../assets/Images/Logo/IZO-DECOR-GLASS-Logo-ExSm.webp";
 // import { MdOutlinePriceChange } from "react-icons/md";
 // import { VscTools } from "react-icons/vsc";
 // import { FaRegSmile } from "react-icons/fa";
@@ -9,15 +12,19 @@ function Header() {
   return (
     <header className="headerHome vh-100 row g-0">
       <section className="col-lg-2">
-        <img
-          src={HeaderLogo}
-          srcSet="/assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp 320wh,
-                  /assets/Images/Logo/IZO-DECOR-GLASS-Logo-Medium.webp 768wh,
-                  /assets/Images/Logo/IZO-DECOR-GLASS-Logo-Large.webp 1200wh"
-          sizes="(min-width: 768px) 100vw, 50vw"
-          className="logoHeader"
-          alt="Izo Decor Glass Logo"
-          loading="eager" />
+        <picture>
+          <source media="(min-width:992px)" srcSet={HeaderLogo}></source>
+          <source media="(max-width:991px)" srcSet={HeaderLogoMd}></source>
+          <source media="(max-width:768px)" srcSet={HeaderLogoSm}></source>
+          <source media="(max-width:576px)" srcSet={HeaderLogoExSm}></source>
+
+        <img 
+        src={HeaderLogo} 
+        className="logoHeader" 
+        alt="Izo Decor Glass Logo" 
+        loading="eager"/>
+        </picture>
+        
       </section>
       <section className="headerSlogan d-flex flex-column col-lg-10">
         <h1 className="py-3 mt-4 me-3 text-center border-5 border-end fontW700">IZO DECOR GLASS</h1>
