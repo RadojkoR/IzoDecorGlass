@@ -18,11 +18,13 @@ function Nav() {
     }
     
      const handleClickOutHamburger = (e) => {
-        if(!e.target.closest(".navbar-toggler")) {
-            console.log("you click otside hamburger");
+        if(!e.target.closest(".navbar-toggler") && !e.target.closest("#dropDownBtn")) {
+            console.log("you click otside hamburger", e.target);
             // navBar.classList.remove("show")
             setIsMenuOpen(false);
-        };
+        } else {
+            console.log("you click on hamburger or usluge arrow", e.target);
+        }
     }
       useEffect(() => {
         document.addEventListener("click", handleClickOutside);
