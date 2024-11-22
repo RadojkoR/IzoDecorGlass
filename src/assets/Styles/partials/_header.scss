@@ -15,16 +15,17 @@
         // bottom: 10rem;
         top: 30rem;
         left: -16rem;
-        background-color: #ffffffa8;
+        background-color: variables.$tertiaryBgColor;
         padding: 1rem 2rem;
     }
 
     .headerSlogan {
-        background-color: variables.$quaternaryBgColor;
+        background-color: variables.$tertiaryBgColor;
         height: 20rem;
         width: 40rem;
         margin-left: auto;
         margin-top: 30rem;
+        box-shadow: 3px 3px 8px;
         // color:  variables.$tertiaryTxtColor!important;
         h1, h2 {
             border-color: variables.$primaryColor!important;
