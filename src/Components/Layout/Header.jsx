@@ -14,15 +14,14 @@ function Header() {
       <section className="col-lg-2">
         <picture>
           <source media="(min-width:992px)" srcSet={HeaderLogo}></source>
-          <source media="(max-width:991px)" srcSet={HeaderLogoMd}></source>
-          <source media="(max-width:768px)" srcSet={HeaderLogoSm}></source>
-          <source media="(max-width:576px)" srcSet={HeaderLogoExSm}></source>
-
-        <img 
-        src={HeaderLogo} 
-        className="logoHeader" 
-        alt="Izo Decor Glass Logo" 
-        loading="eager"/>
+          <source media="(min-width:768px)" srcSet={HeaderLogoMd}></source>
+          <source media="(min-width:576px)" srcSet={HeaderLogoSm}></source>
+          {/* <source media="(max-width:576px)" srcSet={HeaderLogoExSm}></source> */}
+          <img 
+          src={HeaderLogoExSm} 
+          className="logoHeader" 
+          alt="Izo Decor Glass Logo" 
+          loading="eager"/>
         </picture>
         
       </section>
