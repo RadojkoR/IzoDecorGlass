@@ -9,7 +9,15 @@ function Header() {
   return (
     <header className="headerHome vh-100 row g-0">
       <section className="col-lg-2">
-        <img src={HeaderLogo} className="logoHeader" alt="Izo Decor Glass Logo" loading="eager"/>
+        <img
+          src={HeaderLogo}
+          srcSet="/assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp 320wh,
+                  /assets/Images/Logo/IZO-DECOR-GLASS-Logo-Medium.webp 768wh,
+                  /assets/Images/Logo/IZO-DECOR-GLASS-Logo-Large.webp 1200wh"
+          sizes="(min-width: 768px) 100vw, 50vw"
+          className="logoHeader"
+          alt="Izo Decor Glass Logo"
+          loading="eager" />
       </section>
       <section className="headerSlogan d-flex flex-column col-lg-10">
         <h1 className="py-3 mt-4 me-3 text-center border-5 border-end fontW700">IZO DECOR GLASS</h1>
