@@ -1,4 +1,4 @@
-import HeaderLogo from "../../assets/Images/Logo/IZO-DECOR-GLASS-Logo-sm-90deg.webp";
+import HeaderLogo from "../../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Large.webp";
 // import { MdOutlinePriceChange } from "react-icons/md";
 // import { VscTools } from "react-icons/vsc";
 // import { FaRegSmile } from "react-icons/fa";
@@ -9,7 +9,7 @@ function Header() {
   return (
     <header className="headerHome vh-100 row g-0">
       <section className="col-lg-2">
-        <img src={HeaderLogo} className="logoHeader" alt="Izo Decor Glass Logo"/>
+        <img src={HeaderLogo} className="logoHeader" alt="Izo Decor Glass Logo" loading="eager"/>
       </section>
       <section className="headerSlogan d-flex flex-column col-lg-10">
         <h1 className="py-3 mt-4 me-3 text-center border-5 border-end fontW700">IZO DECOR GLASS</h1>
