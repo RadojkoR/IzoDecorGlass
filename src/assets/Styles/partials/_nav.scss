@@ -22,27 +22,16 @@
 
         .active {
             color: variables.$navHoverColor;
-            // font-weight: variables.$fontW700;
             background-color: unset !important;
         }
     }
 
-    // .dropDown:hover .dropDownMenu, 
-    // .dropDown:focus .dropDownMenu {
-    //     opacity: 1;
-    //     height: 10rem;
-    //     transition: all 0.3s ease;
-    // }
-
     .dropDownMenu {
         min-width: 12rem;
-        // height: 0;
         top: 2.5rem;
         left: 2rem;
-        // opacity: 0;
         transition: all 0.3s ease;
         background-color: variables.$tertiaryTxtColor !important;
-        // border: 1px solid variables.$primaryColor;
         box-shadow: 3px 3px 8px;
         display: none;
     }
@@ -69,8 +58,7 @@
     }
 
     .dropDown.open .dropDownMenu {
-        height: auto;
-        opacity: 1;
+        display: block;
     }
 }
 
