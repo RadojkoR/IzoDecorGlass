@@ -16,8 +16,9 @@ function Header() {
           <source media="(min-width:992px)" srcSet={HeaderLogo}></source>
           <source media="(min-width:768px)" srcSet={HeaderLogoMd}></source>
           <source media="(min-width:576px)" srcSet={HeaderLogoSm}></source>
+          <source media="(min-width:280px)" srcSet={HeaderLogoExSm}></source>
           <img 
-          src={HeaderLogoExSm} 
+          src={HeaderLogoMd} 
           className="logoHeader" 
           alt="Izo Decor Glass Logo" 
           loading="eager"/>
