@@ -15,7 +15,7 @@ function Footer() {
                     </div>
                     <div className="footerContentContainer text-light">
                         <h4 className="mb-3">Adresa</h4>
-                        <a className="text-decoration-none text-light" href="#">Adresa ide ovde, Čačak</a>
+                        <a className="text-decoration-none text-light" href="#">Ulica Vukovića 15, Ladjevci</a>
                     </div>
                 </article>
                 <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-4">
@@ -24,7 +24,7 @@ function Footer() {
                     </div>
                     <div className="footerContentContainer text-light">
                         <h4 className="mb-3">Telefon</h4>
-                        <a className="text-decoration-none text-light" href="tel:123456789">123456789</a>
+                        <a className="text-decoration-none text-light" href="tel:+381641241022">+381641241022</a>
                     </div>
                 </article>
                 <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-4">
@@ -33,7 +33,7 @@ function Footer() {
                     </div>
                     <div className="footerContentContainer text-light">
                         <h4 className="mb-3">Email</h4>
-                        <a className="text-decoration-none text-light" href="mailto:123456789">email@test.com</a>
+                        <a className="text-decoration-none text-light" href="mailto:123456789">boskomiletickv@gmail.com</a>
                     </div>
                 </article>
             </section>
