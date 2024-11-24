@@ -69,8 +69,12 @@ function Nav() {
 
                             <MdKeyboardArrowDown id="dropDownBtn" className="fs-2 ms-2 pe-auto" role='button' onClick={handleDropdownToggle} />
                             <ul className="dropDownMenu bg-light text-uppercase position-absolute ps-2 pt-4 pb-2" aria-labelledby="navbarDropdown">
-                                <li className="list-group-item p-0"><NavLink to={"usluge/tusKabine"} className=" nav-link navLinkItem">Tuš Kabine</NavLink></li>
+                                <li className="list-group-item p-0"><NavLink to={"usluge/tušKabine"} className=" nav-link navLinkItem">Tuš Kabine</NavLink></li>
                                 <li className="list-group-item"><NavLink to={"usluge/stakleneOgrade"} className="nav-link navLinkItem">Staklene ograde</NavLink></li>
+                                <li className="list-group-item"><NavLink to={"usluge/ogledala"} className="nav-link navLinkItem">Ogledala</NavLink></li>
+                                <li className="list-group-item"><NavLink to={"usluge/stakleniZidovi"} className="nav-link navLinkItem">Stakleni Zidovi</NavLink></li>
+                                <li className="list-group-item"><NavLink to={"staklenaVrata"} className="nav-link navLinkItem">Staklena Vrata</NavLink></li>
+                                <li className="list-group-item"><NavLink to={"usluge/enterijerOdstakla"} className="nav-link navLinkItem">Enterijer od stakla</NavLink></li>
                             </ul>
                         </li>
                         <li className="navLiItem nav-item">
