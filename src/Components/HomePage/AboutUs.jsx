@@ -23,7 +23,7 @@ function AboutUs() {
             </div>
             
           </article>
-          <article className="aboutUsImgContainer col-lg-5 col-12" data-aos="flip-right">
+          <article className="aboutUsImgContainer col-lg-5 col-12" data-aos="flip-right" data-aos-delay="250">
 
           </article>
 
