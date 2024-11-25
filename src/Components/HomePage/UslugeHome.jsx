@@ -4,7 +4,7 @@ function UslugeHome() {
   return (
     <>
     <section>
-        <h2>Usluge HOme</h2>
+        <h3>Usluge Home</h3>
     </section>
     </>
   )
