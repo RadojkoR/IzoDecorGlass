@@ -6,7 +6,7 @@ import ImgOne from "../assets/Images/marqueeImg/shower1unsplash.webp";
 import ImgTwo from "../assets/Images/marqueeImg/glass2Railingspexels.webp";
 import ImgThree from "../assets/Images/marqueeImg/glass1Railingspexels.webp";
 import ImgFour from "../assets/Images/marqueeImg/glassWallunsplash.webp";
-import { BanerUsluge } from "../Components/HomePage";
+import { BanerUsluge, UslugeHome } from "../Components/HomePage";
 
 
 
@@ -24,6 +24,7 @@ function Home() {
       <BanerUsluge />
       <AboutUs />
       <MarqueeImgSlider images={homeMarquee} customClass={"marqueHome mb-5"}/>
+      <UslugeHome />
     </>
   )
 }
