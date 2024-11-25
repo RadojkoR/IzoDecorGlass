@@ -134,9 +134,7 @@
         background-image: url("../Images/headerImg/headerBgGlassMobileOrigin.webp");
         background-position: right;
 
-        picture {
-            display: none;
-        }
+        
         // .headerUsluge {
         //     .headerUslugeContainer {
         //         width: 95%;
@@ -195,6 +193,9 @@
         //     }
         // }
 
+        picture {
+            display: none;
+        }
         .logoHeader {
             // content: url("../Images/Logo/IZO-DECOR-GLASS-Logo-ExSm.webp");
             width: 30rem;

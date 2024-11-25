@@ -2,7 +2,11 @@
 
 function UslugeHome() {
   return (
-    <div>UslugeHome</div>
+    <>
+    <section>
+        <h2>Usluge HOme</h2>
+    </section>
+    </>
   )
 }
 
