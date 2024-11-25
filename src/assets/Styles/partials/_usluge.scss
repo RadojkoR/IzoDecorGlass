@@ -39,9 +39,12 @@
     background-size: cover;
 }
 
-// TUS KABINE
+.paralaxObradaStakla {
+    background-image: url("../Images/paralaxImg/paralaxGlassCutting.webp");
+}
+
 .paralaxTusKabine {
-    background-image: url("../Images/paralaxBgShower.webp");
+    background-image: url("../Images/paralaxImg/paralaxBgShower.webp");
 
     .paralaxColor {
         background-color: variables.$secondaryBgColor;
@@ -49,7 +52,7 @@
 }
 
 .paralaxStakleneOgrade {
-    background-image: url("../Images/paralaxStaklenaOgrada.webp");
+    background-image: url("../Images/paralaxImg/paralaxStaklenaOgrada.webp");
 }
 
 .paralaxOgledala {

@@ -1,7 +1,17 @@
 @use "./variables";
 
+.banerItemContainer {
+  // background-color: variables.$banerUslugeBg;
+  // width: 17rem;
+  // height: 18rem;
+
+  p {
+    font-size: 1.1rem;
+  }
+}
+
 .homeAboutUs {
-  background-image: url("../Images/paralaxBg.webp");
+  background-image: url("../Images/paralaxImg/paralaxBg.webp");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -70,6 +80,23 @@
   }
 }
 
+
+@media (max-width: 1200px) {
+  .banerItemContainer {
+
+    h2 {
+      font-size: 1.3rem !important;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-top: 0.5rem !important;
+    }
+  }
+
+}
+
+
 @media (max-width: 992px) {
   .aboutUsContainer {
     h2 {
@@ -99,6 +126,18 @@
 
 @media (max-width: 490px) {
 
+  .banerItemContainer {
+
+    h2 {
+      font-size: 1.19rem !important;
+    }
+
+    p {
+      font-size: 0.95rem;
+      margin-top: 0.5rem !important;
+    }
+  }
+
   .aboutUsImgContainer {
     height: 25rem;
   }
@@ -114,6 +153,59 @@
 
     .marqueeContent {
       animation: scroll 10s linear infinite;
+    }
+  }
+}
+
+@media (max-width: 490px) {
+  .banerItemContainer {
+
+    h2 {
+      font-size: 1.19rem !important;
+    }
+
+    p {
+      font-size: 0.95rem;
+      margin-top: 0.5rem !important;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .banerItemContainer {
+
+    h2 {
+      font-size: 1.05rem !important;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .banerItemContainer {
+
+    h2 {
+      font-size: 0.85rem !important;
+    }
+
+    p {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .banerItemContainer {
+
+    h2 {
+      font-size: 0.72rem !important;
+    }
+
+    p {
+      font-size: 0.7rem;
     }
   }
 }

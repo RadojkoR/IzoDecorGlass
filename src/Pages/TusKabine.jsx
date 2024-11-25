@@ -2,12 +2,12 @@ import { SecondaryHeader } from "../Components/Layout"
 import MarqueeImgSlider from "../Components/MarqueeImgSlider/MarqueeImgSlider"
 import logo from "../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp";
 
-import imgOne from "../assets/Images/shower2.webp";
-import imgTwo from "../assets/Images/shower3.webp";
-import imgThree from "../assets/Images/shower4.webp";
-import imgFour from "../assets/Images/shower5.webp";
-import imgFive from "../assets/Images/shower6.webp";
-import imgSix from "../assets/Images/shower7.webp";
+import imgOne from "../assets/Images/marqueeImg/shower2.webp";
+import imgTwo from "../assets/Images/marqueeImg/shower3.webp";
+import imgThree from "../assets/Images/marqueeImg/shower4.webp";
+import imgFour from "../assets/Images/marqueeImg/shower5.webp";
+import imgFive from "../assets/Images/marqueeImg/shower6.webp";
+import imgSix from "../assets/Images/marqueeImg/shower7.webp";
 
 
 

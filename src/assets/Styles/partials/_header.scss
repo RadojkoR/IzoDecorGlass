@@ -1,7 +1,7 @@
 @use "../partials/variables";
 
 .headerHome {
-    background-image: url("../Images/headerBgGlass.webp");
+    background-image: url("../Images/headerImg/headerBgGlass.webp");
     // background-image: url("../Images/headerImg2.webp");
     background-position: center;
     background-repeat: no-repeat;
@@ -68,30 +68,30 @@
 }
 
 .uslugeHeader {
-    background-image: url("../Images/uslugeHeader1.webp");
+    background-image: url("../Images/headerImg/uslugeHeader1.webp");
 }
 
 .tusKabineHeader {
-    background-image: url("../Images/headerTusKabine350.webp");
+    background-image: url("../Images/headerImg/headerTusKabine350.webp");
 }
 
 .stakleneOgradeHeader {
-    background-image: url("../Images/staklenaOgrada300.webp");
+    background-image: url("../Images/headerImg/staklenaOgrada300.webp");
 }
 .tipoviStaklaHeader {
-    background-image: url("../Images/staklenaOgrada300.webp");
+    background-image: url("../Images/headerImg/tipoviStaklaHeader1.webp");
 }
 
 .ogledalaHeader {
-    background-image: url("../Images/mirrorHeader2.webp");
+    background-image: url("../Images/headerImg/mirrorHeader2.webp");
 }
 
 .stakleniZidoviHeader {
-    background-image: url("../Images/glassWallHeader.webp");
+    background-image: url("../Images/headerImg/glassWallHeader.webp");
 }
 
 .kontaktHeader {
-    background-image: url("../Images/kontaktHeader.webp");
+    background-image: url("../Images/headerImg/kontaktHeader.webp");
 }
 
 @media (max-width: 992px) {
@@ -145,7 +145,7 @@
 
 @media (max-width: 768px) {
     .headerHome {
-        background-image: url("../Images/headerBgGlassMobileOrigin.webp");
+        background-image: url("../Images/headerImg/headerBgGlassMobileOrigin.webp");
         background-position: right;
 
         // .headerUsluge {

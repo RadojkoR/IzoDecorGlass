@@ -1,9 +1,9 @@
 import { SecondaryHeader } from "../Components/Layout"
 import TipoviStaklaItem from "../Components/TipoviStaklaItem/TipoviStaklaItem"
-import clearGlassImg from "../assets/Images/clearGlass.webp";
-import temperedGlassImg from "../assets/Images/temperedGlass.webp";
-import frostedGlassImg from "../assets/Images/frostedGlass.webp";
-import laminatedGlassImg from "../assets/Images/laminatedGlass.webp";
+import clearGlassImg from "../assets/Images/tipoviStaklaImg/clearGlass.webp";
+import temperedGlassImg from "../assets/Images/tipoviStaklaImg/temperedGlass.webp";
+import frostedGlassImg from "../assets/Images/tipoviStaklaImg/frostedGlass.webp";
+import laminatedGlassImg from "../assets/Images/tipoviStaklaImg/laminatedGlass.webp";
 
 
 function TipoviStakla() {
