@@ -1,7 +1,6 @@
 import HeaderLogo from "../../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Large.webp";
 import HeaderLogoMd from "../../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Medium.webp";
 import HeaderLogoSm from "../../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp";
-import HeaderLogoExSm from "../../assets/Images/Logo/IZO-DECOR-GLASS-Logo-ExSm.webp";
 // import { MdOutlinePriceChange } from "react-icons/md";
 // import { VscTools } from "react-icons/vsc";
 // import { FaRegSmile } from "react-icons/fa";
@@ -16,7 +15,6 @@ function Header() {
           <source media="(min-width:992px)" srcSet={HeaderLogo}></source>
           <source media="(min-width:768px)" srcSet={HeaderLogoMd}></source>
           <source media="(min-width:576px)" srcSet={HeaderLogoSm}></source>
-          <source media="(min-width:280px)" srcSet={HeaderLogoExSm}></source>
           <img 
           src={HeaderLogoMd} 
           className="logoHeader" 
