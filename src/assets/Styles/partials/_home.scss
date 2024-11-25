@@ -2,7 +2,7 @@
 
 .banerItemContainer {
   // background-color: variables.$banerUslugeBg;
-  // width: 17rem;
+  max-width: 17rem;
   // height: 18rem;
 
   p {
@@ -15,6 +15,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  overflow-x: hidden;
 
   .paralaxColor {
     background-color: variables.$secondaryBgColor;
