@@ -73,8 +73,8 @@ function Nav() {
                                 <li className="list-group-item"><NavLink to={"usluge/stakleneOgrade"} className="nav-link navLinkItem">Staklene ograde</NavLink></li>
                                 <li className="list-group-item"><NavLink to={"usluge/ogledala"} className="nav-link navLinkItem">Ogledala</NavLink></li>
                                 <li className="list-group-item"><NavLink to={"usluge/stakleniZidovi"} className="nav-link navLinkItem">Stakleni Zidovi</NavLink></li>
-                                <li className="list-group-item"><NavLink to={"staklenaVrata"} className="nav-link navLinkItem">Staklena Vrata</NavLink></li>
-                                <li className="list-group-item"><NavLink to={"usluge/enterijerOdstakla"} className="nav-link navLinkItem">Enterijer od stakla</NavLink></li>
+                                <li className="list-group-item"><NavLink to={"usluge/staklenaVrata"} className="nav-link navLinkItem">Staklena Vrata</NavLink></li>
+                                <li className="list-group-item"><NavLink to={"usluge/stakleneObloge"} className="nav-link navLinkItem">Staklene Obloge</NavLink></li>
                             </ul>
                         </li>
                         <li className="navLiItem nav-item">

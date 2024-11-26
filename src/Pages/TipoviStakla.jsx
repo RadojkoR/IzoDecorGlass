@@ -20,7 +20,7 @@ function TipoviStakla() {
     },
     {
       title: "Kaljeno staklo",
-      description: "Kaljeno staklo je poznato po svojoj čvrstoći i otpornosti na udarce. U slučaju lomljenja, razbija se na sitne komade bez oštrih ivica, čineći ga izuzetno sigurnim. Pogodno je za Balkonske i stepenišne ograde, Staklene stolove,Staklene stolove",
+      description: "Kaljeno staklo je poznato po svojoj čvrstoći i otpornosti na udarce. U slučaju lomljenja, razbija se na sitne komade bez oštrih ivica, čineći ga izuzetno sigurnim. Pogodno je za Balkonske i stepenišne ograde, Staklene stolove.",
       img: temperedGlassImg,
       paralaxClass: "paralaxTwo"
     },

@@ -44,8 +44,8 @@ function Kontakt() {
             </div>
             <div className="kontaktContentContainer">
               <h4 className="mb-3">Telefon</h4>
-              <a className="text-decoration-none" href="tel:123456789">
-                123456789
+              <a className="text-decoration-none" href="tel:+381641241022">
+                +381 64 124 1022
               </a>
             </div>
           </article>

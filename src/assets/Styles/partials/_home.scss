@@ -81,6 +81,17 @@
   }
 }
 
+.uslugeHomeContainer {
+  margin: 0.5rem;
+  padding: 1rem 0.5rem;
+  width: calc(25% - 1rem);
+  //  background-color: variables.$banerUslugeBg;
+  border: 2px solid variables.$banerUslugeBg;
+  box-shadow: 3px 3px 8px;
+
+  h3 {}
+}
+
 
 @media (max-width: 1200px) {
   .banerItemContainer {
@@ -108,6 +119,10 @@
   .marquee {
     height: 20rem;
   }
+
+  .uslugeHomeContainer {
+    width: calc(50% - 1rem);
+  }
 }
 
 @media (max-width: 768px) {
@@ -122,6 +137,13 @@
     .marqueeContent {
       animation: scroll 20s linear infinite;
     }
+  }
+}
+
+@media (max-width: 576px) {
+  .uslugeHomeContainer {
+    width: calc(95% - 1rem);
+    margin-top: 1rem!important;
   }
 }
 
@@ -154,20 +176,6 @@
 
     .marqueeContent {
       animation: scroll 10s linear infinite;
-    }
-  }
-}
-
-@media (max-width: 490px) {
-  .banerItemContainer {
-
-    h2 {
-      font-size: 1.19rem !important;
-    }
-
-    p {
-      font-size: 0.95rem;
-      margin-top: 0.5rem !important;
     }
   }
 }

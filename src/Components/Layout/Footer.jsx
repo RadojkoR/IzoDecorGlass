@@ -24,7 +24,7 @@ function Footer() {
                     </div>
                     <div className="footerContentContainer text-light">
                         <h4 className="mb-3">Telefon</h4>
-                        <a className="text-decoration-none text-light" href="tel:+381641241022">+381641241022</a>
+                        <a className="text-decoration-none text-light" href="tel:+381641241022">+381 64 124 1022</a>
                     </div>
                 </article>
                 <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-4">
