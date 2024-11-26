@@ -1,6 +1,7 @@
 import { SecondaryHeader } from "../Components/Layout"
 import TipoviStaklaItem from "../Components/TipoviStaklaItem/TipoviStaklaItem"
 import clearGlassImg from "../assets/Images/tipoviStaklaImg/clearGlass.webp";
+import lacobelGlassImg from "../assets/Images/tipoviStaklaImg/lacobelGlass.webp";
 import temperedGlassImg from "../assets/Images/tipoviStaklaImg/temperedGlass.webp";
 import frostedGlassImg from "../assets/Images/tipoviStaklaImg/frostedGlass.webp";
 import laminatedGlassImg from "../assets/Images/tipoviStaklaImg/laminatedGlass.webp";
@@ -17,6 +18,12 @@ function TipoviStakla() {
       description: "Klasičan i univerzalan izbor koji se uklapa u svaki prostor. Providno staklo omogućava maksimalnu prolaznost svetlosti, što ga čini idealnim za prozore, tuš kabine, staklene pregrade",
       img: clearGlassImg,
       paralaxClass: "paralaxOne"
+    },
+    {
+      title: "Lacobel - Lakirano Staklo",
+      description: "Lakobel staklo je dekorativno staklo bojeno specijalnim postupkom, idealno za savremene enterijere. Popularno među dizajnerima i arhitektama, koristi se za oblaganje zidova, plakara, kuhinjskih površina, pa čak i kao zamena za pločice u kupatilima. Njegova glatka i sjajna površina unosi eleganciju i stil, dok širok izbor boja omogućava prilagođavanje svakom prostoru.",
+      img: lacobelGlassImg,
+      paralaxClass: "paralaxFive"
     },
     {
       title: "Kaljeno staklo",

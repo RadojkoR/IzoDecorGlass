@@ -23,6 +23,11 @@
 .paralaxFour {
     background-image: url("../Images/paralaxImg/paralaxFour1.webp");
 }
+
+.paralaxFive {
+    background-image: url("../Images/paralaxImg/paralaxLacobel2.webp");
+    background-position: center top;
+}
 .tipStaklaImg {
     width: 20rem;
     margin-top: -12rem;
@@ -32,5 +37,11 @@
     .tipStaklaImg {
     margin-top: 0rem;
     margin: 1rem auto;
+}
+}
+
+@media (max-width: 768px) {
+   .paralax {
+    height: 12rem;
 }
 }
