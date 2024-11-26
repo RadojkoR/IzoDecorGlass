@@ -13,8 +13,12 @@
 }
 
 .izoText {
-      color: variables.$secondaryTexColor;
-    }
+    color: variables.$secondaryTexColor;
+}
+
+.textLight {
+    color: variables.$textLight;
+}
 
 main {
     background-color: variables.$primaryBgColor !important;
