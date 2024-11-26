@@ -7,7 +7,7 @@ function StakleneObloge() {
     ]
   return (
     <>
-        <SecondaryHeader bgHeader="stakleneOgradeHeader" headerInfo= {stakleneOblogeHeaderTxt} />
+        <SecondaryHeader bgHeader="stakleneOblogeHeader" headerInfo= {stakleneOblogeHeaderTxt} />
 
       <section className='stakleneOgradeContainer py-5 container-md my-5 border-2 border-bottom'>
         <article className='stakleneOgradeTxtContainer d-flex flex-column'>

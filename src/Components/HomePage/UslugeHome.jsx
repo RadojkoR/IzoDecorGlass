@@ -13,7 +13,7 @@ function UslugeHome() {
                         {/* <GiDrill className="fs-1 mt-4 mb-3 text-danger" /> */}
                         <h3 className="fs-4 fontW600 izoText">Obrada Stakla</h3>
                         <p className="text-center textLight mt-3">Izrađujemo staklo po meri uz precizno bušenje, brušenje i fazetiranje. Pružamo visok kvalitet i savršen završni izgled za svaki prostor.</p>
-                        <Link to={"#"} className="btn ms-auto saznajViseBtn fontW600 mt-4 mt-auto" >Saznaj Vise</Link>
+                        {/* <Link to={"#"} className="btn ms-auto saznajViseBtn fontW600 mt-4 mt-auto" >Saznaj Vise</Link> */}
                     </article>
                     <article 
                     className="uslugeHomeContainer col-lg-3 col-md-6 d-flex flex-column align-items-center my-5" 

@@ -1,6 +1,10 @@
 @use "./variables";
 
 
+.tawk-chatinput-editor {
+    background-color: variables.$secondaryBgColor!important;
+}
+
 .fontW500 {
     font-weight: variables.$fontW500;
 }

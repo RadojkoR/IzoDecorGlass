@@ -20,7 +20,6 @@ function UslugeItem({ heading, para, img, paralaxClass, showBtn }) {
             <img src={img} className="w-100" alt="" />
           </div>
         </article>
-        
       </section>
       <div className={`paralaxUsluge ${paralaxClass}`}></div>
     </>

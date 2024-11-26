@@ -21,8 +21,7 @@ function Kontakt() {
           Uvek smo spremni za nove projekte.Ako ste zainteresovani za naša
           staklena rešenja, slobodno nas kontaktirajte putem jednog od sledećih
           kanala, uključujući naš{" "}
-          <span className="text-primary">Izo Decor Glass Chat</span>{" "}
-          <span className="">za brzu komunikaciju</span> za brzu komunikaciju.
+          <span className="text-primary">Izo Decor Glass Chat</span> za brzu komunikaciju.
         </p>
       </section>
       <section className="kontaktContainer d-flex flex-column border-bottom container-md mx-auto pb-5 mb-5">
