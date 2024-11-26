@@ -33,7 +33,7 @@ function Kontakt() {
             <div className="kontaktContentContainer">
               <h4 className="mb-3">Adresa</h4>
               <a className="text-decoration-none" href="#">
-                Adresa ide ovde, Čačak
+                Ulica Vukovića 15, Lađevci
               </a>
             </div>
           </article>
@@ -54,8 +54,8 @@ function Kontakt() {
             </div>
             <div className="kontaktContentContainer">
               <h4 className="mb-3">Email</h4>
-              <a className="text-decoration-none" href="mailto:123456789">
-                email@test.com
+              <a className="text-decoration-none" href="mailto:izodecorglass@gmail.com">
+                izodecorglass@gmail.com
               </a>
             </div>
           </article>
