@@ -15,7 +15,7 @@ function Footer() {
                     </div>
                     <div className="footerContentContainer text-light">
                         <h4 className="mb-3">Adresa</h4>
-                        <a className="text-decoration-none text-light" href="#">Ulica Vukovića 15, Lađevci</a>
+                        <a className="text-decoration-none text-light" href="https://maps.app.goo.gl/hDYR33vb7eEN9RNQ9" target="_blank">Ulica Vukovića 15, Lađevci</a>
                     </div>
                 </article>
                 <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-4">

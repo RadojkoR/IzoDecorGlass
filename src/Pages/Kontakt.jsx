@@ -32,7 +32,7 @@ function Kontakt() {
             </div>
             <div className="kontaktContentContainer">
               <h4 className="mb-3">Adresa</h4>
-              <a className="text-decoration-none" href="#">
+              <a className="text-decoration-none" href="https://maps.app.goo.gl/hDYR33vb7eEN9RNQ9" target="_blank">
                 Ulica Vukovića 15, Lađevci
               </a>
             </div>
