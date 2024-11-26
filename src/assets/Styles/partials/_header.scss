@@ -134,24 +134,13 @@
         background-image: url("../Images/headerImg/headerBgGlassMobileOrigin.webp");
         background-position: right;
 
-        
-        // .headerUsluge {
-        //     .headerUslugeContainer {
-        //         width: 95%;
-        //         height: 5rem;
-        //         margin-bottom: 0.5rem;
-
-        //         .headerIcon {
-        //             font-size: 1.8rem;
-        //         }
-        //     }
-        // }
-
-        .logoHeader {
-            // content: url("../Images/Logo/IZO-DECOR-GLASS-Logo-ExSm.webp");
-            width: 40rem;
-            // left: 0.5rem;
+         picture {
+            display: none;
         }
+
+        // .logoHeader {
+        //     width: 40rem;
+        // }
 
         .headerSlogan {
             width: 29rem;
@@ -173,7 +162,6 @@
             width: 30rem;
             right: 0rem;
 
-            // bottom: -3rem;
             h1 {
                 font-size: 3rem;
             }
@@ -187,20 +175,11 @@
 
 @media (max-width: 576px) {
     .headerHome {
-        // .headerUslugeContainer {
-        //     p {
-        //         margin-top: 0.4rem !important;
-        //     }
+       
+        // .logoHeader {
+        //     width: 30rem;
+        //     left: -11rem;
         // }
-
-        picture {
-            display: none;
-        }
-        .logoHeader {
-            // content: url("../Images/Logo/IZO-DECOR-GLASS-Logo-ExSm.webp");
-            width: 30rem;
-            left: -11rem;
-        }
 
         .headerSlogan {
             width: 23.8rem;
@@ -222,7 +201,6 @@
             width: 28rem;
             right: 0rem;
 
-            // bottom: -3rem;
             h1 {
                 font-size: 3rem;
             }
@@ -236,16 +214,11 @@
 
 @media (max-width: 490px) {
     .headerHome {
-        // .headerUslugeContainer {
-        //     p {
-        //         margin-top: 0.4rem !important;
-        //     }
-        // }
 
-        .logoHeader {
-            width: 27rem;
-            left: -10rem;
-        }
+        // .logoHeader {
+        //     width: 27rem;
+        //     left: -10rem;
+        // }
 
         .headerSlogan {
             width: 20.7rem;
@@ -266,7 +239,6 @@
             width: 25rem;
             right: 0rem;
 
-            // bottom: -3rem;
             h1 {
                 font-size: 2.5rem;
             }
@@ -281,10 +253,10 @@
 @media (max-width: 420px) {
     .headerHome {
 
-        .logoHeader {
-            width: 24rem;
-            left: -9rem;
-        }
+        // .logoHeader {
+        //     width: 24rem;
+        //     left: -9rem;
+        // }
 
         .headerSlogan {
             width: 18.7rem;
@@ -304,7 +276,6 @@
             width: 23rem;
             right: 0rem;
 
-            // bottom: -3rem;
             h1 {
                 font-size: 2.3rem;
             }
@@ -319,11 +290,11 @@
 @media (max-width: 380px) {
     .headerHome {
 
-        .logoHeader {
-            width: 20rem;
-            left: -7rem;
-            top: 18rem;
-        }
+        // .logoHeader {
+        //     width: 20rem;
+        //     left: -7rem;
+        //     top: 18rem;
+        // }
 
         .headerSlogan {
             width: 17rem;
@@ -344,7 +315,6 @@
             width: 19rem;
             right: 0rem;
 
-            // bottom: -3rem;
             h1 {
                 font-size: 2.1rem!important;
             }
@@ -359,10 +329,10 @@
 @media (max-width: 320px) {
     .headerHome {
 
-        .logoHeader {
-            // top: 11rem !important;
-            width: 20rem;
-        }
+        // .logoHeader {
+        //     // top: 11rem !important;
+        //     width: 20rem;
+        // }
     }
 
      // SECONDARY HEADER
@@ -371,7 +341,6 @@
             width: 17rem;
             right: 0rem;
 
-            // bottom: -3rem;
             h1 {
                 font-size: 2.1rem!important;
             }
