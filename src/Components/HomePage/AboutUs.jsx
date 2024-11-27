@@ -4,9 +4,9 @@ import { useEffect } from "react";
 
 
 function AboutUs() {
-   useEffect(() => {
-        AOS.init({duration: 1000})
-    }, [])
+  useEffect(() => {
+    AOS.init({ duration: 1000 })
+  }, [])
   return (
     <section className="homeAboutUs">
       <div className="paralaxColor">
@@ -21,7 +21,7 @@ function AboutUs() {
               <p className="fs-5 px-3 mb-0 fontW700 izoText">Boško Miletić</p>
               <p className="fs-6 fontW600 px-3 ">Osnivač i vlasnik, Izo Decor Glass</p>
             </div>
-            
+
           </article>
           <article className="aboutUsImgContainer col-lg-5 col-12" data-aos="flip-right" data-aos-delay="250">
 

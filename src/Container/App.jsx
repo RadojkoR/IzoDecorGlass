@@ -1,11 +1,10 @@
 import '../App.css';
 import { Footer, Nav } from '../Components/Layout/index';
-import {Home, Kontakt, Ogledala, StaklenaVrata, StakleneObloge, StakleniZidovi, TipoviStakla, TusKabine, Usluge} from "../Pages/index";
-import {Route, Routes} from 'react-router-dom'
+import { Home, Kontakt, Ogledala, StaklenaVrata, StakleneObloge, StakleniZidovi, TipoviStakla, TusKabine, Usluge } from "../Pages/index";
+import { Route, Routes } from 'react-router-dom'
 import StakleneOgrade from '../Pages/StakleneOgrade';
 
 function App() {
-
   return (
     <section>
       <Nav />
@@ -21,7 +20,7 @@ function App() {
           <Route path='/usluge/stakleneObloge' element={<StakleneObloge />}></Route>
           <Route path='/tipoviStakla' element={<TipoviStakla />}></Route>
           <Route path='/kontakt' element={<Kontakt />}></Route>
-        </Routes>       
+        </Routes>
       </section>
       <Footer />
     </section>

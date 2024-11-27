@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 
 
-function SecondaryHeader({ bgHeader, headerInfo}) {
-  const {headingEl, para} = headerInfo[0];
-  
+function SecondaryHeader({ bgHeader, headerInfo }) {
+  const { headingEl, para } = headerInfo[0];
+
   return (
     <header className={`${bgHeader} secondaryHeader vh-100 row g-0 position-relative`}>
       <div className='secondaryHeaderTxtcontainer position-absolute'>

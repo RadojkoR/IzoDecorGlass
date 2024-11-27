@@ -2,7 +2,7 @@
 
 
 .tawk-chatinput-editor {
-    background-color: variables.$secondaryBgColor!important;
+    background-color: variables.$secondaryBgColor !important;
 }
 
 .fontW500 {
@@ -12,6 +12,7 @@
 .fontW600 {
     font-weight: variables.$fontW600;
 }
+
 .fontW700 {
     font-weight: variables.$fontW700;
 }
@@ -26,70 +27,6 @@
 
 main {
     background-color: variables.$primaryBgColor !important;
-    color: variables.$primaryTextColor!important;
+    color: variables.$primaryTextColor !important;
     font-family: variables.$primaryFont;
-}
-
-.homeLogo {
-    width:45rem;
-}
-h1 {
-    font-size: 4rem;
-}
-
-[data-aos="aosTransformRotate360"] {
-  transform: rotate(360deg);
-  opacity: 0;
-  transition-property: transform, opacity;
-  transition-duration: 1s;
-
-  &.aos-animate {
-    transform: rotate(0deg);
-    opacity: 1;
-  }
-}
-
-[data-aos="aosTransformRotate-360"] {
-  transform: rotate(-360deg);
-  opacity: 0;
-  transition-property: transform, opacity;
-  transition-duration: 1s;
-
-  &.aos-animate {
-    transform: rotate(0deg);
-    opacity: 1;
-  }
-}
-
-
-
-@media (max-width: 992px) {
-    .homeLogo {
-            width:35rem;
-    }
-
-    h1 {
-    font-size: 3rem;
-}
-}
-@media (max-width: 768px) {
-    .homeLogo {
-            width:25rem;
-    }
-
-    h1 {
-    font-size: 2rem;
-}
-
-}
-
-@media (max-width: 768px) {
-    .homeLogo {
-            width:17rem;
-    }
-
-    h1 {
-    font-size: 1.5rem;
-}
-
 }

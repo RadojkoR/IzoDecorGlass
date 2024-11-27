@@ -12,10 +12,10 @@ import { BanerUsluge, UslugeHome } from "../Components/HomePage";
 
 function Home() {
   const homeMarquee = [
-    {src: ImgOne , alt: "Shower Image"},
-    {src: ImgTwo , alt: "Glass Railing Image"},
-    {src: ImgThree , alt: "Glass Railing Image"},
-    {src: ImgFour , alt: "Shower Image"},
+    { src: ImgOne, alt: "Shower Image" },
+    { src: ImgTwo, alt: "Glass Railing Image" },
+    { src: ImgThree, alt: "Glass Railing Image" },
+    { src: ImgFour, alt: "Shower Image" },
 
   ]
   return (
@@ -23,7 +23,7 @@ function Home() {
       <Header />
       <BanerUsluge />
       <AboutUs />
-      <MarqueeImgSlider images={homeMarquee} customClass={"marqueHome mb-5"}/>
+      <MarqueeImgSlider images={homeMarquee} customClass={"marqueHome mb-5"} />
       <UslugeHome />
     </>
   )

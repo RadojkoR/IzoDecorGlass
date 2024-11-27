@@ -4,12 +4,12 @@ import logo from "../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp";
 
 function StakleneOgrade() {
   const stakleneOgradeHeaderTxt = [
-    {headingEl: "Staklene Ograde", para: "Spoj elegancije i funkcionalnosti"}
+    { headingEl: "Staklene Ograde", para: "Spoj elegancije i funkcionalnosti" }
   ]
   return (
     <>
-      <SecondaryHeader bgHeader="stakleneOgradeHeader" headerInfo= {stakleneOgradeHeaderTxt} />
-      <BreadcrumbComponent/>
+      <SecondaryHeader bgHeader="stakleneOgradeHeader" headerInfo={stakleneOgradeHeaderTxt} />
+      <BreadcrumbComponent />
       <section className='stakleneOgradeContainer py-5 container-md my-5 border-2 border-bottom'>
         <article className='stakleneOgradeTxtContainer d-flex flex-column'>
           <h2 className='mt-5 mb-4'><span className="fontW600 izoText fs-1">Staklene ograde</span> – Sigurnost i stil u savršenom skladu</h2>
@@ -39,9 +39,7 @@ function StakleneOgrade() {
           <p className="fs-5 mt-4"><span className="fontW600">Staklene ograde za vaš prostor – </span>spoj funkcionalnosti, sigurnosti i vrhunskog stila. Kontaktirajte nas za više informacija i ponudu prilagođenu vašim potrebama.</p>
 
           <img src={logo} className='ms-auto my-5' alt="Izo Decor Glass Logo" />
-
         </article>
-
       </section>
     </>
 

@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 
 
-function TipoviStaklaItem({title, description, img, paralaxClass}) {
+function TipoviStaklaItem({ title, description, img, paralaxClass }) {
   return (
     <>
       <section className={`paralax ${paralaxClass}`}></section>
-    <section className='tipoviStaklaContainer pb-4 container-md my-5'>
+      <section className='tipoviStaklaContainer pb-4 container-md my-5'>
         <h2>{title}</h2>
         <article className="tipoviStakla row mt-5">
           <div className="col-lg-8">
@@ -17,7 +17,6 @@ function TipoviStaklaItem({title, description, img, paralaxClass}) {
         </article>
       </section>
     </>
-    
   )
 }
 

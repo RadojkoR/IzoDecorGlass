@@ -7,10 +7,9 @@ import frostedGlassImg from "../assets/Images/tipoviStaklaImg/frostedGlass.webp"
 import laminatedGlassImg from "../assets/Images/tipoviStaklaImg/laminatedGlass.webp";
 import BreadcrumbComponent from "../Components/Global/BreadcrumbComponent";
 
-
 function TipoviStakla() {
   const tipoviStaklaHeaderTxt = [
-    {headingEl: "Tipovi Stakla", para: "Savršeno rešenje za svaki prostor"}
+    { headingEl: "Tipovi Stakla", para: "Savršeno rešenje za svaki prostor" }
   ]
 
   const typeOfGlass = [
@@ -48,8 +47,8 @@ function TipoviStakla() {
 
   return (
     <>
-      <SecondaryHeader bgHeader="tipoviStaklaHeader" headerInfo={tipoviStaklaHeaderTxt}/>
-      <BreadcrumbComponent/>
+      <SecondaryHeader bgHeader="tipoviStaklaHeader" headerInfo={tipoviStaklaHeaderTxt} />
+      <BreadcrumbComponent />
       <section className='tipoviStaklaContainer py-5 container-md my-4 '>
         <h2>Tipovi Stakla &#8213; Savršeno rešenje za svaki prostor</h2>
         <article className="tipoviStakla mt-4">
@@ -57,11 +56,11 @@ function TipoviStakla() {
         </article>
       </section>
       {
-        typeOfGlass.map((type,index) => (
-          <TipoviStaklaItem key={index} title={type.title} description={type.description} img={type.img} paralaxClass={type.paralaxClass}/>
+        typeOfGlass.map((type, index) => (
+          <TipoviStaklaItem key={index} title={type.title} description={type.description} img={type.img} paralaxClass={type.paralaxClass} />
         ))
       }
-     
+
     </>
   )
 }

@@ -2,16 +2,15 @@ import BreadcrumbComponent from "../Components/Global/BreadcrumbComponent";
 import { SecondaryHeader } from "../Components/Layout"
 import logo from "../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp";
 
-
 function StaklenaVrata() {
-    const staklenaVrataHeaderTxt = [
-        {headingEl: "Staklena Vrata", para: "Spoj elegancije i funkcionalnosti"}
-    ]
+  const staklenaVrataHeaderTxt = [
+    { headingEl: "Staklena Vrata", para: "Spoj elegancije i funkcionalnosti" }
+  ]
   return (
-   <>
-    <SecondaryHeader bgHeader="stakleniZidoviHeader" headerInfo={staklenaVrataHeaderTxt} />
-    <BreadcrumbComponent/>
-    <section className='stakleneOgradeContainer container-md mb-5 border-2 border-bottom'>
+    <>
+      <SecondaryHeader bgHeader="stakleniZidoviHeader" headerInfo={staklenaVrataHeaderTxt} />
+      <BreadcrumbComponent />
+      <section className='stakleneOgradeContainer container-md mb-5 border-2 border-bottom'>
         <article className='stakleneOgradeTxtContainer d-flex flex-column'>
           <h2 className='mt-5 mb-4'><span className="fontW600 izoText fs-1">Staklena vrata</span> –  Elegancija i praktičnost u jednom</h2>
           <p className='fs-5 px-md-3'>Staklena vrata su idealno rešenje za svaki prostor, donoseći savremen dizajn, prirodnu svetlost i sofisticiran izgled. Bilo da ih koristite za poslovne ili stambene prostore, staklena vrata nude estetsku privlačnost i funkcionalnost, uz mogućnost prilagođavanja vašim specifičnim potrebama.</p>
@@ -25,7 +24,7 @@ function StaklenaVrata() {
           </ul>
 
           <h3 className="mt-5 fontW600">Primena staklenih vrata</h3>
-           <ul>
+          <ul>
             <li className="fs-5 mb-2"><span className="fontW600">Unutrašnji prostori - </span>Idealna za odvajanje prostorija bez gubitka svetlosti i otvorenosti.</li>
             <li className="fs-5 mb-2"><span className="fontW600">Ulazna vrata - </span>Moderan i privlačan ulaz u vaš dom ili poslovni prostor.</li>
             <li className="fs-5"><span className="fontW600">Kancelarije - </span>Povezivanje i deljenje prostora uz očuvanje privatnosti i profesionalnog izgleda.</li>
@@ -44,7 +43,7 @@ function StaklenaVrata() {
           <img src={logo} className='ms-auto my-5' alt="Izo Decor Glass Logo" />
         </article>
       </section>
-   </>
+    </>
   )
 }
 

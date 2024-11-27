@@ -1,9 +1,7 @@
 @use "./variables";
 
 .banerItemContainer {
-  // background-color: variables.$banerUslugeBg;
   max-width: 17rem;
-  opacity: 0;
 
   p {
     font-size: 1.1rem;
@@ -85,11 +83,8 @@
   margin: 0.5rem;
   padding: 1rem 0.5rem;
   width: calc(25% - 1rem);
-  //  background-color: variables.$banerUslugeBg;
   border: 2px solid variables.$banerUslugeBg;
   box-shadow: 3px 3px 8px;
-
-  h3 {}
 }
 
 
@@ -143,7 +138,7 @@
 @media (max-width: 576px) {
   .uslugeHomeContainer {
     width: calc(95% - 1rem);
-    margin-top: 1rem!important;
+    margin-top: 1rem !important;
   }
 }
 

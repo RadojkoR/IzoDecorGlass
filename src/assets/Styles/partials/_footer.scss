@@ -2,17 +2,19 @@
 
 
 .footerIconContainer {
-    width: 6rem!important;
-    height: 6rem!important;
+    width: 6rem !important;
+    height: 6rem !important;
     background-color: variables.$footerIconContainerBgColor;
 }
 
-.footerContentContainer  {
+.footerContentContainer {
     a {
         transition: all 0.2s ease;
     }
-    a:hover, a:focus {
-        color: variables.$hoverFooterSocialIcon!important;
+
+    a:hover,
+    a:focus {
+        color: variables.$hoverFooterSocialIcon !important;
     }
 }
 
@@ -20,17 +22,20 @@
     width: 3rem;
     height: 3rem;
     transition: all 0.2s ease;
-    
-    &:hover, &:focus {
+
+    &:hover,
+    &:focus {
         background-color: variables.$hoverFooterSocialIcon;
-        color: variables.$primaryTextColor!important;
+        color: variables.$primaryTextColor !important;
     }
 }
 
 .powerdBy {
     color: variables.$powerByColor;
     transition: all 0.3s ease;
-    &:hover, &:focus {
+
+    &:hover,
+    &:focus {
         color: variables.$hoverFooterSocialIcon;
     }
 }

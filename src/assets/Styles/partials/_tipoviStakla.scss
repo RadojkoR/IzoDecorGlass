@@ -8,6 +8,7 @@
     background-attachment: fixed;
     background-size: cover;
 }
+
 .paralaxOne {
     background-image: url("../Images/paralaxImg/paralaxClearGlassFull.webp");
 }
@@ -28,6 +29,7 @@
     background-image: url("../Images/paralaxImg/paralaxLacobel2.webp");
     background-position: center top;
 }
+
 .tipStaklaImg {
     width: 20rem;
     margin-top: -12rem;
@@ -35,13 +37,13 @@
 
 @media (max-width: 992px) {
     .tipStaklaImg {
-    margin-top: 0rem;
-    margin: 1rem auto;
-}
+        margin-top: 0rem;
+        margin: 1rem auto;
+    }
 }
 
 @media (max-width: 768px) {
-   .paralax {
-    height: 12rem;
-}
+    .paralax {
+        height: 12rem;
+    }
 }

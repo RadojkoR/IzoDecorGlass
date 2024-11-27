@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom';
 
-
-
 function UslugeItem({ heading, para, img, paralaxClass, showBtn }) {
   const linkPath = heading
     .replace(/\s+/g, '')

@@ -16,7 +16,7 @@ function Kontakt() {
   return (
     <>
       <SecondaryHeader bgHeader="kontaktHeader" headerInfo={kontaktHeaderTxt} />
-      <BreadcrumbComponent/>
+      <BreadcrumbComponent />
       <section className="container-md my-5">
         <h2 className="mt-5 mb-4">Kontaktirajte nas</h2>
         <p className="fs-5 px-md-3">

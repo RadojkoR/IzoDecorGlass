@@ -2,7 +2,6 @@
 
 .headerHome {
     background-image: url("../Images/headerImg/headerBgGlass.webp");
-    // background-image: url("../Images/headerImg2.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,9 +10,7 @@
     .logoHeader {
         transform: rotate(-90deg);
         width: 45rem;
-        // position: absolute;
         position: relative;
-        // bottom: 10rem;
         top: 30rem;
         left: -16rem;
         background-color: variables.$tertiaryBgColor;
@@ -27,25 +24,16 @@
         margin-left: auto;
         margin-top: 30rem;
 
-        // outline: 1px solid black;
-        // box-shadow: 3px 3px 8px;
-        // color:  variables.$tertiaryTxtColor!important;
         h1,
         h2 {
             border-color: variables.$primaryColor !important;
             color: variables.$quaternaryTxtColor !important;
         }
+
+        h1 {
+            font-size: 4rem;
+        }
     }
-
-    // .headerUslugeContainer {
-    //     width: 18rem;
-    //     height: 10rem;
-    //     background-color: variables.$secondaryBgColor;
-
-    //     .headerIcon {
-    //         font-size: 2.5rem;
-    //     }
-    // }
 }
 
 // SECONDARY HEADER
@@ -56,7 +44,6 @@
     height: 40vh !important;
     margin-top: 5rem;
     z-index: 1;
-    // margin-bottom: 9.5rem;
 
     .secondaryHeaderTxtcontainer {
         width: 40rem;
@@ -78,6 +65,7 @@
 .stakleneOgradeHeader {
     background-image: url("../Images/headerImg/staklenaOgrada300.webp");
 }
+
 .tipoviStaklaHeader {
     background-image: url("../Images/headerImg/tipoviStaklaHeader1.webp");
 }
@@ -116,6 +104,7 @@
         .secondaryHeaderTxtcontainer {
             width: 35rem;
             right: 1rem;
+
             h1 {
                 font-size: 3.5rem;
             }
@@ -128,13 +117,9 @@
         background-image: url("../Images/headerImg/headerBgGlassMobileOrigin.webp");
         background-position: right;
 
-         picture {
+        picture {
             display: none;
         }
-
-        // .logoHeader {
-        //     width: 40rem;
-        // }
 
         .headerSlogan {
             width: 29rem;
@@ -169,11 +154,6 @@
 
 @media (max-width: 576px) {
     .headerHome {
-       
-        // .logoHeader {
-        //     width: 30rem;
-        //     left: -11rem;
-        // }
 
         .headerSlogan {
             width: 23.8rem;
@@ -209,11 +189,6 @@
 @media (max-width: 490px) {
     .headerHome {
 
-        // .logoHeader {
-        //     width: 27rem;
-        //     left: -10rem;
-        // }
-
         .headerSlogan {
             width: 20.7rem;
             height: 13rem;
@@ -227,6 +202,7 @@
             }
         }
     }
+
     // SECONDARY HEADER
     .secondaryHeader {
         .secondaryHeaderTxtcontainer {
@@ -238,7 +214,7 @@
             }
 
             p {
-                font-size: 1.5rem!important;
+                font-size: 1.5rem !important;
             }
         }
     }
@@ -246,11 +222,6 @@
 
 @media (max-width: 420px) {
     .headerHome {
-
-        // .logoHeader {
-        //     width: 24rem;
-        //     left: -9rem;
-        // }
 
         .headerSlogan {
             width: 18.7rem;
@@ -264,7 +235,8 @@
             }
         }
     }
-     // SECONDARY HEADER
+
+    // SECONDARY HEADER
     .secondaryHeader {
         .secondaryHeaderTxtcontainer {
             width: 23rem;
@@ -275,7 +247,7 @@
             }
 
             p {
-                font-size: 1.3rem!important;
+                font-size: 1.3rem !important;
             }
         }
     }
@@ -283,12 +255,6 @@
 
 @media (max-width: 380px) {
     .headerHome {
-
-        // .logoHeader {
-        //     width: 20rem;
-        //     left: -7rem;
-        //     top: 18rem;
-        // }
 
         .headerSlogan {
             width: 17rem;
@@ -303,44 +269,38 @@
         }
 
     }
-     // SECONDARY HEADER
+
+    // SECONDARY HEADER
     .secondaryHeader {
         .secondaryHeaderTxtcontainer {
             width: 19rem;
             right: 0rem;
 
             h1 {
-                font-size: 2.1rem!important;
+                font-size: 2.1rem !important;
             }
 
             p {
-                font-size: 1.1rem!important;
+                font-size: 1.1rem !important;
             }
         }
     }
 }
 
 @media (max-width: 320px) {
-    .headerHome {
 
-        // .logoHeader {
-        //     // top: 11rem !important;
-        //     width: 20rem;
-        // }
-    }
-
-     // SECONDARY HEADER
+    // SECONDARY HEADER
     .secondaryHeader {
         .secondaryHeaderTxtcontainer {
             width: 17rem;
             right: 0rem;
 
             h1 {
-                font-size: 2.1rem!important;
+                font-size: 2.1rem !important;
             }
 
             p {
-                font-size: 1.1rem!important;
+                font-size: 1.1rem !important;
             }
         }
     }
