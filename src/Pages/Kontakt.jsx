@@ -4,7 +4,7 @@ import { PiMapPinAreaDuotone } from "react-icons/pi";
 import { LuPhoneOutgoing } from "react-icons/lu";
 import { MdOutlineEmail } from "react-icons/md";
 import logo from "../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp"
-import RoutePageComponent from "../Components/Global/RoutePageComponent";
+import BreadcrumbComponent from "../Components/Global/BreadcrumbComponent";
 
 function Kontakt() {
   const kontaktHeaderTxt = [
@@ -16,7 +16,7 @@ function Kontakt() {
   return (
     <>
       <SecondaryHeader bgHeader="kontaktHeader" headerInfo={kontaktHeaderTxt} />
-      <RoutePageComponent/>
+      <BreadcrumbComponent/>
       <section className="container-md my-5">
         <h2 className="mt-5 mb-4">Kontaktirajte nas</h2>
         <p className="fs-5 px-md-3">

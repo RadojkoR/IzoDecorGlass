@@ -8,7 +8,7 @@ import staklenaVrata from "../assets/Images/uslugeImg/uslugeStaklenaVrata.webp";
 import stakleneObloge from "../assets/Images/uslugeImg/uslugeStakleneObloge.webp";
 
 import UslugeItem from "../Components/UslugePage/UslugeItem";
-import RoutePageComponent from "../Components/Global/RoutePageComponent";
+import BreadcrumbComponent from "../Components/Global/BreadcrumbComponent";
 
 function Usluge() {
   const uslugeHeaderTxt = [
@@ -27,7 +27,7 @@ function Usluge() {
   return (
     <>
       <SecondaryHeader bgHeader="uslugeHeader" headerInfo={uslugeHeaderTxt} />
-      <RoutePageComponent />
+      <BreadcrumbComponent />
       {usluge.length >0 ? (
         usluge.map((item, index) => (
             <UslugeItem key={index}  heading={item.uslugeHeading} para={item.para} img={item.img} paralaxClass={item.paralaxClass} showBtn={item.showBtnClass}/> 

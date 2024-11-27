@@ -1,7 +1,6 @@
 import { SecondaryHeader } from "../Components/Layout"
 import MarqueeImgSlider from "../Components/MarqueeImgSlider/MarqueeImgSlider"
 import logo from "../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp";
-import RoutePageComponent from "../Components/Global/RoutePageComponent";
 
 import imgOne from "../assets/Images/marqueeImg/shower2.webp";
 import imgTwo from "../assets/Images/marqueeImg/shower3.webp";
@@ -9,6 +8,7 @@ import imgThree from "../assets/Images/marqueeImg/shower4.webp";
 import imgFour from "../assets/Images/marqueeImg/shower5.webp";
 import imgFive from "../assets/Images/marqueeImg/shower6.webp";
 import imgSix from "../assets/Images/marqueeImg/shower7.webp";
+import BreadcrumbComponent from "../Components/Global/BreadcrumbComponent";
 
 
 
@@ -30,7 +30,7 @@ function TusKabine() {
   return (
     <>
       <SecondaryHeader bgHeader="tusKabineHeader" headerInfo={tusKabineHeaderTxt}/>
-      <RoutePageComponent/>
+      <BreadcrumbComponent/>
       {/* <div className="paralaxTusKabine my-4">
         <div className="paralaxColor"> */}
           <section className="tusKabineContainer container-md py-5 position-relative my-5 border-2 border-bottom">

@@ -1,4 +1,4 @@
-import RoutePageComponent from '../Components/Global/RoutePageComponent';
+import BreadcrumbComponent from '../Components/Global/BreadcrumbComponent';
 import { SecondaryHeader } from '../Components/Layout'
 import logo from "../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp";
 
@@ -9,7 +9,7 @@ function StakleneOgrade() {
   return (
     <>
       <SecondaryHeader bgHeader="stakleneOgradeHeader" headerInfo= {stakleneOgradeHeaderTxt} />
-      <RoutePageComponent/>
+      <BreadcrumbComponent/>
       <section className='stakleneOgradeContainer py-5 container-md my-5 border-2 border-bottom'>
         <article className='stakleneOgradeTxtContainer d-flex flex-column'>
           <h2 className='mt-5 mb-4'><span className="fontW600 izoText fs-1">Staklene ograde</span> – Sigurnost i stil u savršenom skladu</h2>

@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 
-function RoutePageComponent() {
+function BreadcrumbComponent() {
     const location = useLocation();
     const pathParts = location.pathname.split("/").filter(Boolean);
     console.log((location.pathname));
@@ -28,6 +28,7 @@ function RoutePageComponent() {
             <Link to={"/"} className="routePageLink">Home</Link>
            { pathParts.map((item, index) => (
             <span key={index}>
+            
                 <span> / </span>
                 <Link to={`/${pathParts.slice(0, index + 1).join("/")}`} className="routePageLink linkActive ">
                 {(decodeURIComponent(item)
@@ -44,4 +45,4 @@ function RoutePageComponent() {
 }
 
 
-export default RoutePageComponent
+export default BreadcrumbComponent
