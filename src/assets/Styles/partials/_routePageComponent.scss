@@ -1,0 +1,25 @@
+@use "./variables";
+
+.routePageContainer {
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 6rem;
+    // background-color: #a8a8a8;
+    // outline: 2px solid #a8a8a8;
+    text-decoration: none!important;
+    p {
+        .routePageLink{
+                color: inherit;
+                text-decoration: none;
+                transition: all 0.2s ease;
+                &:hover, &:focus {
+                    font-weight: 600;
+                    color: variables.$secondaryTexColor;
+                }
+        }
+        .linkActive {
+            color: variables.$linkTxtColor;
+        }
+    }
+    
+}

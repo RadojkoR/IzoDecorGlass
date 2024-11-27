@@ -5,6 +5,7 @@ import lacobelGlassImg from "../assets/Images/tipoviStaklaImg/lacobelGlass.webp"
 import temperedGlassImg from "../assets/Images/tipoviStaklaImg/temperedGlass.webp";
 import frostedGlassImg from "../assets/Images/tipoviStaklaImg/frostedGlass.webp";
 import laminatedGlassImg from "../assets/Images/tipoviStaklaImg/laminatedGlass.webp";
+import RoutePageComponent from "../Components/Global/RoutePageComponent";
 
 
 function TipoviStakla() {
@@ -48,6 +49,7 @@ function TipoviStakla() {
   return (
     <>
       <SecondaryHeader bgHeader="tipoviStaklaHeader" headerInfo={tipoviStaklaHeaderTxt}/>
+      <RoutePageComponent/>
       <section className='tipoviStaklaContainer py-5 container-md my-4 '>
         <h2>Tipovi Stakla &#8213; Savršeno rešenje za svaki prostor</h2>
         <article className="tipoviStakla mt-4">

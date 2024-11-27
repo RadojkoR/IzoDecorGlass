@@ -1,3 +1,4 @@
+import RoutePageComponent from '../Components/Global/RoutePageComponent';
 import { SecondaryHeader } from '../Components/Layout'
 import logo from "../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp";
 
@@ -8,7 +9,7 @@ function StakleneObloge() {
   return (
     <>
         <SecondaryHeader bgHeader="stakleneOblogeHeader" headerInfo= {stakleneOblogeHeaderTxt} />
-
+        <RoutePageComponent/>
       <section className='stakleneOgradeContainer py-5 container-md my-5 border-2 border-bottom'>
         <article className='stakleneOgradeTxtContainer d-flex flex-column'>
           <h2 className='mt-5 mb-4'><span className="fontW600 izoText fs-1">Staklene obloge </span> – Savršen spoj dizajna i funkcionalnosti</h2>

@@ -1,3 +1,4 @@
+import RoutePageComponent from "../Components/Global/RoutePageComponent";
 import { SecondaryHeader } from "../Components/Layout"
 import logo from "../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp";
 
@@ -10,7 +11,7 @@ function Ogledala() {
   return (
     <>
       <SecondaryHeader bgHeader="ogledalaHeader" headerInfo={ogledalaHeaderTxt} />
-
+      <RoutePageComponent/>
       <section className='stakleneOgradeContainer container-md mb-5 border-2 border-bottom'>
         <article className='stakleneOgradeTxtContainer d-flex flex-column'>
           <h2 className='mt-5 mb-4'><span className="fontW600 izoText fs-1">Ogledala</span> – Više od refleksije.</h2>
