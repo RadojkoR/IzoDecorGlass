@@ -39,3 +39,15 @@
         color: variables.$hoverFooterSocialIcon;
     }
 }
+
+@media (max-width: 380px) {
+    .copyrightPara {
+        font-size: 0.86rem!important;
+    }
+}
+
+@media (max-width: 320px) {
+    .copyrightPara {
+        font-size: 0.75rem!important;
+    }
+}

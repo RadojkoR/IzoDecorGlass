@@ -46,15 +46,13 @@ function Footer() {
                     </a>
                 </section>
                 <section className="d-flex flex-column flex-sm-row align-items-center justify-content-center py-3">
-                    <p className="text-light">Copyright &copy; All Rights Reserved Izo Decor Glass </p>
+                    <p className="text-light copyrightPara">Copyright &copy; All Rights Reserved Izo Decor Glass </p>
                     <p className="text-light">
                         &nbsp; &nbsp;&nbsp;&nbsp;Powered by
                         <a className="powerdBy text-decoration-none " href="https://www.radoyko.com" target="_blank"> Radojko.com</a>
                     </p>
                 </section>
-
             </div>
-
         </footer>
     )
 }
