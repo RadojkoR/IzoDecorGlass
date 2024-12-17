@@ -1,4 +1,4 @@
-name: Deploy React App to cPanel
+name: Deploy to FTP Server
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
           npm install
           npm run build
 
-      - name: Deploy to cPanel via FTP
+      - name: Deploy to FTP server
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
