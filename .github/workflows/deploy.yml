@@ -1,4 +1,4 @@
-name: Deploy to FTP Server
+name: Deploy React App to cPanel
 
 on:
   push:
@@ -22,11 +22,11 @@ jobs:
           npm install
           npm run build
 
-      - name: Deploy to FTP server
+      - name: Deploy to cPanel via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/ # Lokacija build foldera
-          server-dir: / # FTP folder gde ide aplikacija
+          server-dir: /public_html # FTP folder gde ide aplikacija
