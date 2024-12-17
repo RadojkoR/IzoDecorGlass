@@ -30,5 +30,3 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/ # Lokacija build foldera
           server-dir: / # FTP folder gde ide aplikacija
-          protocol: ftps  # Omogućava FTPS
-          port: 21    # Postavka za port
