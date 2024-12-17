@@ -30,14 +30,20 @@
     }
 }
 
-.powerdBy {
-    color: variables.$powerByColor;
+.poweredBy {
+    width: 10rem!important;
     transition: all 0.3s ease;
+
+    img {
+        width: 100%;
+    }
 
     &:hover,
     &:focus {
-        color: variables.$hoverFooterSocialIcon;
+        filter: hue-rotate(200deg);
     }
+
+   
 }
 
 @media (max-width: 380px) {

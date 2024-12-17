@@ -3,6 +3,7 @@ import { LuPhoneOutgoing } from "react-icons/lu";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
+import webHubStudioLogo from "../../assets/Images/Logo/WebHubStudioLogoTextLight256.webp"
 
 function Footer() {
     return (
@@ -38,19 +39,21 @@ function Footer() {
                     </article>
                 </section>
                 <section className="d-flex justify-content-center border-bottom py-5 row">
-                    <a href="https://www.facebook.com/" className="socialMediaIcon border d-flex align-items-center me-2" target="_blank" aria-label="Facebook">
+                    <a href="https://www.facebook.com/profile.php?id=61570192525209" className="socialMediaIcon border d-flex align-items-center me-2" target="_blank" aria-label="Facebook">
                         <FaFacebookF className="fs-2 text-decoration-none text-light" alt="Facebook icon" />
                     </a>
                     <a href="https://www.instagram.com/" className="socialMediaIcon border d-flex align-items-center ms-2" target="_blank" aria-label="Instagram">
                         <FaInstagram className="fs-1 text-decoration-none text-light" alt="Instagram Icon" />
                     </a>
                 </section>
-                <section className="d-flex flex-column flex-sm-row align-items-center justify-content-center py-3">
-                    <p className="text-light copyrightPara">Copyright &copy; All Rights Reserved Izo Decor Glass </p>
-                    <p className="text-light">
-                        &nbsp; &nbsp;&nbsp;&nbsp;Powered by
-                        <a className="powerdBy text-decoration-none " href="https://www.radoyko.com" target="_blank"> Radojko.com</a>
-                    </p>
+                <section className="d-flex flex-column flex-sm-row align-items-center justify-content-center py-5">
+                    <p className="text-light copyrightPara m-0">Copyright &copy; All Rights Reserved Izo Decor Glass </p>
+                    <div className="text-light d-flex align-items-center">
+                       <p className="m-0">&nbsp; &nbsp;&nbsp;&nbsp;Powered by &nbsp;</p> 
+                        <a className="poweredBy text-decoration-none " href="https://www.radoyko.com" target="_blank"> 
+                            <img src={webHubStudioLogo} alt="Web hub Studio Logo" />
+                        </a>
+                    </div>
                 </section>
             </div>
         </footer>
