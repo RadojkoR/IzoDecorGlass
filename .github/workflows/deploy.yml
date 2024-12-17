@@ -29,4 +29,6 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/ # Lokacija build foldera
-          server-dir: /public_html/ # FTP folder gde ide aplikacija
+          server-dir: / # FTP folder gde ide aplikacija
+          ftps: true  # Omogućava FTPS
+          port: 21    # Postavka za port
