@@ -50,7 +50,7 @@ function Footer() {
                     <p className="text-light copyrightPara m-0">Copyright &copy; All Rights Reserved Izo Decor Glass </p>
                     <div className="text-light d-flex align-items-center">
                        <p className="m-0">&nbsp; &nbsp;&nbsp;&nbsp;Powered by &nbsp;</p> 
-                        <a className="poweredBy text-decoration-none " href="https://www.radoyko.com" target="_blank"> 
+                        <a className="poweredBy text-decoration-none " href="https://www.webhubstudio.com/" target="_blank"> 
                             <img src={webHubStudioLogo} alt="Web hub Studio Logo" />
                         </a>
                     </div>
