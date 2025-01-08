@@ -3,8 +3,24 @@ import { Footer, Nav } from '../Components/Layout/index';
 import { Home, Kontakt, Ogledala, StaklenaVrata, StakleneObloge, StakleniZidovi, TipoviStakla, TusKabine, Usluge } from "../Pages/index";
 import { Route, Routes } from 'react-router-dom'
 import StakleneOgrade from '../Pages/StakleneOgrade';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    //  Start of Tawk.to Script
+    const script = document.createElement("script");
+    script.src = 'https://embed.tawk.to/6745f0b14304e3196ae9087d/1idkj8dgt';
+    script.charset = 'UTF-8';
+    script.setAttribute('crossorigin', '*');
+    script.async = true;
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    }
+  // End of Tawk.to Script
+  }, [])
   return (
     <section>
       <Nav />
