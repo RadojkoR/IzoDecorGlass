@@ -11,12 +11,6 @@ function Gallery() {
     },
   ];
 
-  //   const photos = [
-  //   { src: "/images/img1.webp", width: 800, height: 600 },
-  //   { src: "/images/img2.webp", width: 600, height: 400 },
-  //   { src: "/images/img3.webp", width: 700, height: 500 },
-  // ];
-
   return (
     <>
       <SecondaryHeader
