@@ -35,9 +35,8 @@ function Gallery() {
           <ColumnsPhotoAlbum
             photos={galleryData}
             columns={(containerWidth) => {
-              // if(containerWidth < 576) return 3;
+              if(containerWidth < 576) return 3;
               if(containerWidth < 768) return 4;
-              
               return 5;
             }}
           />
