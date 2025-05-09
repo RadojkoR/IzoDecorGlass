@@ -30,3 +30,7 @@ main {
     color: variables.$primaryTextColor !important;
     font-family: variables.$primaryFont;
 }
+.gallery-wrapper img {
+  max-width: none !important;
+  height: auto !important;
+}

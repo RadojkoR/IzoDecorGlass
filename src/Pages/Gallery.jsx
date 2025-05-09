@@ -1,6 +1,7 @@
 import { SecondaryHeader } from "../Components/Layout";
-import { MasonryPhotoAlbum } from "react-photo-album";
-import imageGalleryData from "../Data/imageGalleryData.json"
+import { ColumnsPhotoAlbum } from "react-photo-album";
+import galleryData from "../Data/imageGalleryData";
+import "react-photo-album/columns.css";
 
 function Gallery() {
   const galerijaHeaderTxt = [
@@ -10,16 +11,33 @@ function Gallery() {
     },
   ];
 
-  console.log(imageGalleryData);
-  
+  //   const photos = [
+  //   { src: "/images/img1.webp", width: 800, height: 600 },
+  //   { src: "/images/img2.webp", width: 600, height: 400 },
+  //   { src: "/images/img3.webp", width: 700, height: 500 },
+  // ];
+
   return (
     <>
       <SecondaryHeader
         bgHeader="kontaktHeader"
         headerInfo={galerijaHeaderTxt}
       />
-      <section>
-        <MasonryPhotoAlbum photos={imageGalleryData} columns={4}/>
+      <section className="container-md my-5">
+        <article className="border-bottom border-secondary-subtle mb-5">
+          <h2 className="mt-5 mb-4">Galerija</h2>
+          <p className="fs-5 px-md-3 pb-3">
+            Pogledajte izbor naših prethodnih projekata i inspirišite se kvalitetom i elegancijom staklenih rešenja koja nudimo.
+          </p>
+        </article>
+
+        <article>
+          <ColumnsPhotoAlbum
+            photos={galleryData}
+            columns={5}
+          />
+        </article>
+
       </section>
     </>
   );
