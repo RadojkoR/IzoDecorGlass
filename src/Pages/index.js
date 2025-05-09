@@ -7,5 +7,6 @@ import Ogledala from "./Ogledala";
 import StakleniZidovi from "./StakleniZidovi";
 import StaklenaVrata from "./StaklenaVrata";
 import StakleneObloge from "./StakleneObloge";
+import Gallery from "./Gallery";
 
-export {Home, Usluge, TusKabine, TipoviStakla, Kontakt, Ogledala, StakleniZidovi, StaklenaVrata, StakleneObloge}
+export {Home, Usluge, TusKabine, TipoviStakla, Kontakt, Ogledala, StakleniZidovi, StaklenaVrata, StakleneObloge, Gallery}

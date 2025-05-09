@@ -81,6 +81,9 @@ function Nav() {
                             <NavLink to={"/tipoviStakla"} className="navLinkItem nav-link text-uppercase fs-5 ms-lg-4">Tipovi Stakla</NavLink>
                         </li>
                         <li className="navLiItem nav-item">
+                            <NavLink to={"/galerija"} className="navLinkItem nav-link text-uppercase fs-5 ms-lg-4">Galerija</NavLink>
+                        </li>
+                        <li className="navLiItem nav-item">
                             <NavLink to={"/kontakt"} className="navLinkItem nav-link text-uppercase fs-5 ms-lg-4">Kontakt</NavLink>
                         </li>
                     </ul>
