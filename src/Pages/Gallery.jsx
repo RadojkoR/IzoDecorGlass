@@ -58,8 +58,6 @@ function Gallery() {
             index={index}
             plugins={[Counter, Fullscreen, Thumbnails, Zoom, Download, Captions]}
             counter={{ container: { style: { top: "unset", bottom: 0, right: 0, left: "unset" } } }}
-            title={{container:{style: { top: "unset", bottom: 0, right: 0, left: "unset" }}}}
-
           />
         </article>
 
