@@ -1,8 +1,9 @@
 import { useState } from "react";
+import galleryData from "../Data/imageGalleryData";
 import { SecondaryHeader } from "../Components/Layout";
 import { ColumnsPhotoAlbum } from "react-photo-album";
 import "react-photo-album/columns.css";
-import galleryData from "../Data/imageGalleryData";
+
 import Lightbox from "yet-another-react-lightbox";
 import { Counter, Fullscreen, Thumbnails, Zoom, Download, Captions } from "yet-another-react-lightbox/plugins";
 import "yet-another-react-lightbox/styles.css";
