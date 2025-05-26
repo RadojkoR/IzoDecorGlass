@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://izodecorglass.rs/sitemap.xml
