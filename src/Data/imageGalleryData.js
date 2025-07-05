@@ -1,5 +1,5 @@
 const galleryData = [
-   { src: "/images/img1.webp", title: "Tuš Kabina",description: "opis slike jedan", width: 1200, height: 1409 },
+  { src: "/images/img1.webp", title: "Tuš Kabina",description: "opis slike jedan", width: 1200, height: 1409 },
   { src: "/images/img2.webp", title: "Tuš Kabina", width: 822, height: 1392 },
   { src: "/images/img3.webp", title: "Stakleni Zid", width: 1200, height: 1600 },
   { src: "/images/img4.webp", title: "Tuš Kabina", width: 1200, height: 1600 },
