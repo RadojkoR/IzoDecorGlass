@@ -6,7 +6,7 @@ const metaData = {
     },
     "/usluge": {
         title: "Usluge | Obrada stakla, Tuš kabine, Ogledala – Izo Decor Glass",
-        description: "Izo Decor Glass nudi profesionalnu obradu stakla i izradu tuš kabina, staklenih ograda, ogledala, staklenih zidova, vrata i obloga. Kvalitetno staklo po meri za vaš dom i poslovni prostor.",
+        description: "Ako vam je potreban pouzdan staklorezac u Kraljevu i okolini, Izo Decor Glass nudi profesionalnu obradu stakla i izradu tuš kabina, staklenih ograda, ogledala, staklenih zidova, vrata i obloga.",
         keywords: "staklorezac Kraljevo, staklo po meri, ogledala, kuhinjsko staklo, tuš kabine, staklene police"
     },
     "/usluge/tus-kabine": {
