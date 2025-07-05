@@ -1,6 +1,6 @@
 import '../App.css';
 import { Footer, Nav } from '../Components/Layout/index';
-import { Gallery, Home, Kontakt, Ogledala, StaklenaVrata, StakleneObloge, StakleniZidovi, TipoviStakla, TusKabine, Usluge } from "../Pages/index";
+import { Gallery, Home, Kontakt, Ogledala, StaklenaVrata, StakleneObloge, StakleniZidovi, TipoviStakla, TusKabine, Usluge, NotFound } from "../Pages/index";
 import { Route, Routes } from 'react-router-dom'
 import StakleneOgrade from '../Pages/StakleneOgrade';
 import { useEffect } from 'react';
@@ -37,6 +37,7 @@ function App() {
           <Route path='/tipovi-stakla' element={<TipoviStakla />}></Route>
           <Route path='/galerija' element={<Gallery />}></Route>
           <Route path='/kontakt' element={<Kontakt />}></Route>
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </section>
       <Footer />

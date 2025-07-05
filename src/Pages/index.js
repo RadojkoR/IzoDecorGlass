@@ -8,5 +8,6 @@ import StakleniZidovi from "./StakleniZidovi";
 import StaklenaVrata from "./StaklenaVrata";
 import StakleneObloge from "./StakleneObloge";
 import Gallery from "./Gallery";
+import NotFound from "./NotFound";
 
-export {Home, Usluge, TusKabine, TipoviStakla, Kontakt, Ogledala, StakleniZidovi, StaklenaVrata, StakleneObloge, Gallery}
+export {Home, Usluge, TusKabine, TipoviStakla, Kontakt, Ogledala, StakleniZidovi, StaklenaVrata, StakleneObloge, Gallery, NotFound}
