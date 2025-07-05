@@ -20,11 +20,11 @@ function Footer() {
         </section>
 
         <section className="row border-bottom pb-5">
-          <article className="addressContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-4">
-            <div className="footerIconContainer me-4 d-flex justify-content-center align-items-center">
+          <article className="addressContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex flex-column justify-content-center align-items-center mb-5">
+            <div className="footerIconContainer d-flex justify-content-center align-items-center mb-4">
               <PiMapPinAreaDuotone className="text-light w-50 h-50" />
             </div>
-            <div className="footerContentContainer text-light">
+            <div className="footerContentContainer d-flex flex-column justify-content-centers align-items-center text-light text-center">
               <h4 className="mb-3">Adresa</h4>
               <section className="mb-3">
               <p className="mb-1 fw-bolder izoTextFooter">Kancelarija</p>
@@ -49,11 +49,11 @@ function Footer() {
               
             </div>
           </article>
-          <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-4">
-            <div className="footerIconContainer me-4 d-flex justify-content-center align-items-center">
+          <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex flex-column align-items-center mb-5">
+            <div className="footerIconContainer mb-4 d-flex justify-content-center align-items-center">
               <LuPhoneOutgoing className="text-light w-50 h-50" />
             </div>
-            <div className="footerContentContainer text-light">
+            <div className="footerContentContainer d-flex flex-column justify-content-centers align-items-center text-light text-center">
               <h4 className="mb-3">Telefon</h4>
               <a
                 className="text-decoration-none text-light"
@@ -63,11 +63,11 @@ function Footer() {
               </a>
             </div>
           </article>
-          <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex mb-4">
-            <div className="footerIconContainer me-4 d-flex justify-content-center align-items-center">
+          <article className="phoneContainerFooter col-lg-4 col-sm-12 col-xs-12 d-flex flex-column align-items-center mb-5">
+            <div className="footerIconContainer mb-4 d-flex justify-content-center align-items-center">
               <MdOutlineEmail className="text-light w-50 h-50" />
             </div>
-            <div className="footerContentContainer text-light">
+            <div className="footerContentContainer d-flex flex-column justify-content-centers align-items-center text-light text-center">
               <h4 className="mb-3">Email</h4>
               <a
                 className="text-decoration-none text-light"
