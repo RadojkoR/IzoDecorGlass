@@ -33,15 +33,6 @@ function Kontakt() {
       <MetaTags />
       <SecondaryHeader bgHeader="kontaktHeader" headerInfo={kontaktHeaderTxt} />
       <BreadcrumbComponent />
-      {/* <section className="container-md my-5">
-        <h2 className="mt-5 mb-4">Kontaktirajte nas</h2>
-        <p className="fs-5 px-md-3">
-          Uvek smo spremni za nove projekte.Ako ste zainteresovani za naša
-          staklena rešenja, slobodno nas kontaktirajte putem jednog od sledećih
-          kanala, uključujući naš{" "}
-          <span className="text-primary">Izo Decor Glass Chat</span> za brzu komunikaciju.
-        </p>
-      </section> */}
       <section className="container-md my-5">
         <h2 className="mt-5 mb-4">Kontaktirajte nas</h2>
         <p className="fs-5 px-md-3">

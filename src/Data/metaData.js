@@ -1,6 +1,6 @@
 const metaData = {
     "/": {
-        title: "Izo Decor Glass | Staklorezačka radnja Kraljevo",
+        title: "Izo Decor Glass | Staklorezac Kraljevo",
         description: "Izo Decor Glass je staklorezačka radnja iz Kraljeva. Nudimo staklena rešenja po meri: ogledala, kuhinjska stakla, tuš kabine i još mnogo toga.",
         keywords: "staklorezac Kraljevo, staklo po meri, ogledala, kuhinjsko staklo, tuš kabine, staklene police"
     },
@@ -50,7 +50,7 @@ const metaData = {
         keywords: "galerija staklenih radova, staklorezac Kraljevo, stakleni proizvodi, tuš kabine, staklene ograde, ogledala, staklo po meri, Izo Decor Glass"
     },
     "/kontakt": {
-        title: "Kontakt | Izo Decor Glass – Staklorezačka radnja Kraljevo",
+        title: "Kontakt | Izo Decor Glass – Staklorezac Kraljevo",
         description: "Kontaktirajte Izo Decor Glass i prepustite nam izradu staklenih proizvoda po vašoj meri. Nalazimo se u Kraljevu i dostupni smo za sve vaše potrebe.Nudimo staklorezačke usluge i dostavu u Kraljevu, Beogradu, Čačku, Kragujevcu, Kruševcu, i okolnim gradovima.",
         keywords: "kontakt, staklorezac Kraljevo, staklo po meri, ogledala, kuhinjsko staklo, tuš kabine, staklene police, staklorezac Čačak, staklorezac Kruševac, staklorezac Kragujevac, staklorezac Beograd"
     }
