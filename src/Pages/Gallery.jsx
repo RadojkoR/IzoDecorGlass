@@ -10,6 +10,7 @@ import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/counter.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/plugins/captions.css";
+import MetaTags from "../Components/SEO/MetaTags";
 
 
 
@@ -27,6 +28,7 @@ function Gallery() {
 
   return (
     <>
+      <MetaTags />
       <SecondaryHeader
         bgHeader="kontaktHeader"
         headerInfo={galerijaHeaderTxt}

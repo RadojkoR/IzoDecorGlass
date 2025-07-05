@@ -6,6 +6,7 @@ import ogledalo from "../assets/Images/uslugeImg/uslugeOgledala.webp";
 import stakleniZidovi from "../assets/Images/uslugeImg/uslugeStakleniZidovi.webp";
 import staklenaVrata from "../assets/Images/uslugeImg/uslugeStaklenaVrata.webp";
 import stakleneObloge from "../assets/Images/uslugeImg/uslugeStakleneObloge.webp";
+import MetaTags from "../Components/SEO/MetaTags";
 
 import UslugeItem from "../Components/UslugePage/UslugeItem";
 import BreadcrumbComponent from "../Components/Global/BreadcrumbComponent";
@@ -26,6 +27,7 @@ function Usluge() {
   ]
   return (
     <>
+      <MetaTags />
       <SecondaryHeader bgHeader="uslugeHeader" headerInfo={uslugeHeaderTxt} />
       <BreadcrumbComponent />
       {usluge.length > 0 ? (

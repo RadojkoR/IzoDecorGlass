@@ -1,5 +1,6 @@
 import BreadcrumbComponent from '../Components/Global/BreadcrumbComponent';
 import { SecondaryHeader } from '../Components/Layout'
+import MetaTags from '../Components/SEO/MetaTags';
 import logo from "../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp";
 
 function StakleneObloge() {
@@ -8,6 +9,7 @@ function StakleneObloge() {
   ]
   return (
     <>
+      <MetaTags />
       <SecondaryHeader bgHeader="stakleneOblogeHeader" headerInfo={stakleneOblogeHeaderTxt} />
       <BreadcrumbComponent />
       <section className='stakleneOgradeContainer py-5 container-md my-5 border-2 border-bottom'>

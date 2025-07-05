@@ -9,15 +9,12 @@ function Footer() {
   return (
     <footer className="mainFooter bg-dark">
       <div className="container-md pt-5">
-        {/* <p className="text-light text-center fs-5 mb-5 pb-5 border-bottom">
-          <span className="izoText fs-4">Izo decor Glass</span> je staklorezačka radnja iz Kraljeva. Vrši­mo staklorezačke usluge u Kraljevu i okolnim gradovima, uključujući Beograd, Čačak, Kruševac, Kragujevac, Vrnjačku Banju, Rašku i druge.
-        </p> */}
         <section className="footer-seo-text py-4 mt-1 mb-5 border-bottom">
           <div className="container-md text-center">
             <h3 className="izoTextFooter fs-2 mb-4">Izo Decor Glass</h3>
             <p className="fs-5 text-light mx-auto">
               Staklorezačka radnja iz Kraljeva. Vršimo staklorezačke usluge u
-              Kraljevu i okolnim gradovima, uključujući Beograd, Čačak, Kruševac, Kragujevac, Vrnjačku Banju, Rašku i druge.
+              Kraljevu i okolnim gradovima uključujući Beograd, Čačak, Kruševac, Kragujevac, Vrnjačku Banju, Rašku i druge.
             </p>
           </div>
         </section>
@@ -124,16 +121,6 @@ function Footer() {
             <p className="text-light copyrightPara m-0">
             Copyright &copy; <span>{new Date().getFullYear()}</span> All Rights Reserved Izo Decor Glass{" "}
             </p>
-          {/* <div className="text-light d-flex align-items-center">
-            <p className="m-0">&nbsp; &nbsp;&nbsp;&nbsp;Powered by &nbsp;</p>
-            <a
-              className="poweredBy text-decoration-none "
-              href="https://www.webhubstudio.com/"
-              target="_blank"
-            >
-              <img src={webHubStudioLogo} alt="Web hub Studio Logo" />
-            </a>
-          </div> */}
         </section>
       </div>
     </footer>

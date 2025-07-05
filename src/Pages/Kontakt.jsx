@@ -5,6 +5,7 @@ import { LuPhoneOutgoing } from "react-icons/lu";
 import { MdOutlineEmail } from "react-icons/md";
 import logo from "../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp"
 import BreadcrumbComponent from "../Components/Global/BreadcrumbComponent";
+import MetaTags from "../Components/SEO/MetaTags";
 
 function Kontakt() {
   const kontaktHeaderTxt = [
@@ -29,6 +30,7 @@ function Kontakt() {
 
   return (
     <>
+      <MetaTags />
       <SecondaryHeader bgHeader="kontaktHeader" headerInfo={kontaktHeaderTxt} />
       <BreadcrumbComponent />
       {/* <section className="container-md my-5">

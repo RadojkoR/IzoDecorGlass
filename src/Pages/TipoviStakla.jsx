@@ -6,6 +6,7 @@ import temperedGlassImg from "../assets/Images/tipoviStaklaImg/temperedGlass.web
 import frostedGlassImg from "../assets/Images/tipoviStaklaImg/frostedGlass.webp";
 import laminatedGlassImg from "../assets/Images/tipoviStaklaImg/laminatedGlass.webp";
 import BreadcrumbComponent from "../Components/Global/BreadcrumbComponent";
+import MetaTags from "../Components/SEO/MetaTags";
 
 function TipoviStakla() {
   const tipoviStaklaHeaderTxt = [
@@ -47,6 +48,7 @@ function TipoviStakla() {
 
   return (
     <>
+      <MetaTags />
       <SecondaryHeader bgHeader="tipoviStaklaHeader" headerInfo={tipoviStaklaHeaderTxt} />
       <BreadcrumbComponent />
       <section className='tipoviStaklaContainer py-5 container-md my-4 '>

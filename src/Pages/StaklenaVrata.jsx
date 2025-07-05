@@ -1,5 +1,6 @@
 import BreadcrumbComponent from "../Components/Global/BreadcrumbComponent";
 import { SecondaryHeader } from "../Components/Layout"
+import MetaTags from "../Components/SEO/MetaTags";
 import logo from "../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp";
 
 function StaklenaVrata() {
@@ -8,6 +9,7 @@ function StaklenaVrata() {
   ]
   return (
     <>
+    <MetaTags />
       <SecondaryHeader bgHeader="stakleniZidoviHeader" headerInfo={staklenaVrataHeaderTxt} />
       <BreadcrumbComponent />
       <section className='stakleneOgradeContainer container-md mb-5 border-2 border-bottom'>

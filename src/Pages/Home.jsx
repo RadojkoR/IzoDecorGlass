@@ -1,7 +1,7 @@
 import AboutUs from "../Components/HomePage/AboutUs";
 import { Header } from "../Components/Layout";
 import MarqueeImgSlider from "../Components/MarqueeImgSlider/MarqueeImgSlider";
-
+import MetaTags from "../Components/SEO/MetaTags";
 import ImgOne from "../assets/Images/marqueeImg/shower1unsplash.webp";
 import ImgTwo from "../assets/Images/marqueeImg/glass2Railingspexels.webp";
 import ImgThree from "../assets/Images/marqueeImg/glass1Railingspexels.webp";
@@ -20,6 +20,7 @@ function Home() {
   ]
   return (
     <>
+      <MetaTags />
       <Header />
       <BanerUsluge />
       <AboutUs />

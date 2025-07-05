@@ -69,16 +69,16 @@ function Nav() {
 
                             <MdKeyboardArrowDown id="dropDownBtn" className="fs-2 ms-2 pe-auto" role='button' onClick={handleDropdownToggle} />
                             <ul className="dropDownMenu bg-light text-uppercase position-absolute ps-2 pt-4 pb-2" aria-labelledby="navbarDropdown">
-                                <li className="list-group-item p-0"><NavLink to={"usluge/tušKabine"} className=" nav-link navLinkItem">Tuš Kabine</NavLink></li>
-                                <li className="list-group-item"><NavLink to={"usluge/stakleneOgrade"} className="nav-link navLinkItem">Staklene ograde</NavLink></li>
+                                <li className="list-group-item p-0"><NavLink to={"usluge/tus-kabine"} className=" nav-link navLinkItem">Tuš Kabine</NavLink></li>
+                                <li className="list-group-item"><NavLink to={"usluge/staklene-ograde"} className="nav-link navLinkItem">Staklene ograde</NavLink></li>
                                 <li className="list-group-item"><NavLink to={"usluge/ogledala"} className="nav-link navLinkItem">Ogledala</NavLink></li>
-                                <li className="list-group-item"><NavLink to={"usluge/stakleniZidovi"} className="nav-link navLinkItem">Stakleni Zidovi</NavLink></li>
-                                <li className="list-group-item"><NavLink to={"usluge/staklenaVrata"} className="nav-link navLinkItem">Staklena Vrata</NavLink></li>
-                                <li className="list-group-item"><NavLink to={"usluge/stakleneObloge"} className="nav-link navLinkItem">Staklene Obloge</NavLink></li>
+                                <li className="list-group-item"><NavLink to={"usluge/stakleni-zidovi"} className="nav-link navLinkItem">Stakleni Zidovi</NavLink></li>
+                                <li className="list-group-item"><NavLink to={"usluge/staklena-vrata"} className="nav-link navLinkItem">Staklena Vrata</NavLink></li>
+                                <li className="list-group-item"><NavLink to={"usluge/staklene-obloge"} className="nav-link navLinkItem">Staklene Obloge</NavLink></li>
                             </ul>
                         </li>
                         <li className="navLiItem nav-item">
-                            <NavLink to={"/tipoviStakla"} className="navLinkItem nav-link text-uppercase fs-5 ms-lg-4">Tipovi Stakla</NavLink>
+                            <NavLink to={"/tipovi-stakla"} className="navLinkItem nav-link text-uppercase fs-5 ms-lg-4">Tipovi Stakla</NavLink>
                         </li>
                         <li className="navLiItem nav-item">
                             <NavLink to={"/galerija"} className="navLinkItem nav-link text-uppercase fs-5 ms-lg-4">Galerija</NavLink>

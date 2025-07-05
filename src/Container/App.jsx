@@ -28,13 +28,13 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/usluge' element={<Usluge />}></Route>
-          <Route path='/usluge/tušKabine' element={<TusKabine />}></Route>
-          <Route path='/usluge/stakleneOgrade' element={<StakleneOgrade />}></Route>
+          <Route path='/usluge/tus-kabine' element={<TusKabine />}></Route>
+          <Route path='/usluge/staklene-ograde' element={<StakleneOgrade />}></Route>
           <Route path='/usluge/ogledala' element={<Ogledala />}></Route>
-          <Route path='/usluge/stakleniZidovi' element={<StakleniZidovi />}></Route>
-          <Route path='/usluge/staklenaVrata' element={<StaklenaVrata />}></Route>
-          <Route path='/usluge/stakleneObloge' element={<StakleneObloge />}></Route>
-          <Route path='/tipoviStakla' element={<TipoviStakla />}></Route>
+          <Route path='/usluge/stakleni-zidovi' element={<StakleniZidovi />}></Route>
+          <Route path='/usluge/staklena-vrata' element={<StaklenaVrata />}></Route>
+          <Route path='/usluge/staklene-obloge' element={<StakleneObloge />}></Route>
+          <Route path='/tipovi-stakla' element={<TipoviStakla />}></Route>
           <Route path='/galerija' element={<Gallery />}></Route>
           <Route path='/kontakt' element={<Kontakt />}></Route>
         </Routes>

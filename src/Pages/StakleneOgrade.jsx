@@ -1,6 +1,7 @@
 import BreadcrumbComponent from '../Components/Global/BreadcrumbComponent';
 import { SecondaryHeader } from '../Components/Layout'
 import logo from "../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp";
+import MetaTags from '../Components/SEO/MetaTags';
 
 function StakleneOgrade() {
   const stakleneOgradeHeaderTxt = [
@@ -8,6 +9,7 @@ function StakleneOgrade() {
   ]
   return (
     <>
+      <MetaTags />
       <SecondaryHeader bgHeader="stakleneOgradeHeader" headerInfo={stakleneOgradeHeaderTxt} />
       <BreadcrumbComponent />
       <section className='stakleneOgradeContainer py-5 container-md my-5 border-2 border-bottom'>

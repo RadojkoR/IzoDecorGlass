@@ -6,20 +6,30 @@ function BreadcrumbComponent() {
   return (
     <section className="breadcrumbContainer d-flex align-items-center">
       <p className="m-0 ms-5">
-        <Link to={"/"} className="routePageLink">Home</Link>
-        {pathParts.map((item, index) => (
-          <span key={index}>
+        <Link to="/" className="routePageLink linkActive">Izo Decor Glass</Link>
+        {pathParts.map((item, index) => {
+          const isLast = index === pathParts.length - 1;
+          const displayName = decodeURIComponent(item)
+            .split("-")
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(" ");
 
-            <span> / </span>
-            <Link to={`/${pathParts.slice(0, index + 1).join("/")}`} className="routePageLink linkActive ">
-              {(decodeURIComponent(item)
-                .replace(/([A-Z])/g, ' $&')
-                .replace(/^./, (match) => match.toUpperCase())
+          return (
+            <span key={index}>
+              <span> / </span>
+              {isLast ? (
+                <span className="currentBreadcrumb">{displayName}</span>
+              ) : (
+                <Link
+                  to={`/${pathParts.slice(0, index + 1).join("/")}`}
+                  className="routePageLink linkActive"
+                >
+                  {displayName}
+                </Link>
               )}
-            </Link>
-          </span>
-
-        ))}
+            </span>
+          );
+        })}
       </p>
     </section>
   )

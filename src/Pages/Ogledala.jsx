@@ -1,5 +1,6 @@
 import BreadcrumbComponent from "../Components/Global/BreadcrumbComponent";
 import { SecondaryHeader } from "../Components/Layout"
+import MetaTags from "../Components/SEO/MetaTags";
 import logo from "../assets/Images/Logo/IZO-DECOR-GLASS-Logo-Small.webp";
 
 function Ogledala() {
@@ -10,6 +11,7 @@ function Ogledala() {
 
   return (
     <>
+      <MetaTags />
       <SecondaryHeader bgHeader="ogledalaHeader" headerInfo={ogledalaHeaderTxt} />
       <BreadcrumbComponent />
       <section className='stakleneOgradeContainer container-md mb-5 border-2 border-bottom'>
