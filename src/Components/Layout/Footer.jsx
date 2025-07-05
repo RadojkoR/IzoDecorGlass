@@ -110,7 +110,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener"
                 >
-                    <h6 className="webHubStudioColor fs-4 m-sm-0">Izrada i održavanje sajta &nbsp;</h6>
+                    <h5 className="webHubStudioColor fs-4 m-sm-0">Izrada i održavanje sajta &nbsp;</h5>
                     <img
                     src={webHubStudioLogo}
                     className="w-52"
