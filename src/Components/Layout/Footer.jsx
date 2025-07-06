@@ -91,7 +91,7 @@ function Footer() {
             />
           </a>
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/izodecorglass?igsh=bHVxNzhpMnc0OWp6"
             className="socialMediaIcon border d-flex align-items-center ms-2"
             target="_blank"
             aria-label="Instagram"
@@ -119,7 +119,7 @@ function Footer() {
                 </a>
             </div>
             <p className="text-light copyrightPara m-0">
-            Copyright &copy; <span>{new Date().getFullYear()}</span> All Rights Reserved Izo Decor Glass{" "}
+            Copyright &copy; All Rights Reserved <span>{new Date().getFullYear()}</span> Izo Decor Glass{" "}
             </p>
         </section>
       </div>
