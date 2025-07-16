@@ -1,6 +1,16 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  
+  # ✅ 301 Redirekcije starih URL-ova (pre SPA pravila)
+  Redirect 301 /usluge/tušKabine https://izodecorglass.rs/usluge/tus-kabine
+  Redirect 301 /usluge/stakleneOgrade https://izodecorglass.rs/usluge/staklene-ograde
+  Redirect 301 /usluge/stakleniZidovi https://izodecorglass.rs/usluge/stakleni-zidovi
+  Redirect 301 /usluge/staklenaVrata https://izodecorglass.rs/usluge/staklena-vrata
+  Redirect 301 /usluge/stakleneObloge https://izodecorglass.rs/usluge/staklene-obloge
+  Redirect 301 /tipoviStakla https://izodecorglass.rs/tipovi-stakla
+  
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^ index.html [QSA,L]
 </IfModule>
+
